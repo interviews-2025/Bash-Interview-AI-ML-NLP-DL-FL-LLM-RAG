@@ -1,6 +1,6 @@
 ## Table of Contents
 
-- [Can you explain the metrics you know? (e.g., RMSE, MAE, recall, precision...)](#1)
+- [Can you explain the Evaluation Metrics for classification metrics and regression?](#1)
 - [Why do we need normalization? What are some normalization methods?](#2)
 - [What are Local Minima and Global Minimum?](#3)
 - [What is the curse of dimensionality?](#4)
