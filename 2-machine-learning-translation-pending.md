@@ -72,7 +72,7 @@ $$
 
 > **ROC-AUC**
 
-![ROC AUC](./img/2-machine-learning/roc-curve.png)
+![ROC AUC](./images/2-ml/roc-curve.png)
 
 ROC is **FPR(False Positive Rate ) Change When TPR(True Positive Rate ) how Whether it changes representative Curve ** Here , FPR is <strong>FP / (FP + TN)</strong> and TPR is <strong> TP / (FN + TP)</strong> . Reproducibility Say . Then How to FPR Should I move ? Right now classification decision Threshold By changing Move number There is . FPR is 0 To be Set the threshold to 1 If you set it Okay . Then Positive The standard is It's high every In a negative way To be predicted is . On the contrary, 1 is To be Set the threshold to 0 By setting every In a positive way If you predict It can be done like this Threshold While moving The FPR and TPR that come out Each with x and y coordinates Leave it green The curve is the ROC .
 
@@ -137,7 +137,7 @@ Normalizing By way of As a representative example two Eggplant exists . first Th
 
 #### Local Minima and Global Minimum about Please explain .
 
-![Maxima and Minima](./img/2-machine-learning/local-minima-global-minima.png)
+![Maxima and Minima](./images/2-ml/local-minima-global-minima.png)
 
 expense **Global Minimum** in the cost function is Error Minimized That is , we I want to find doing Branch Speaking , **Local Minima ** Error Minimum price Will be number present The candidate felled spot Among the Global Minimum minus Branch Says . Local Minima is If you're not careful ** errors are minimized Branch I found it ** be mistaken number Because there is In a trap To be likened to number There is . This Solve For Momentum and same Optimization The algorithm or use Learning rate well Adjust to Local Minima Get out number there is .
 
@@ -152,7 +152,7 @@ expense **Global Minimum** in the cost function is Error Minimized That is , we 
 
 #### Dimension In the curse about Please explain .
 
-![ Dimension of Curse of ](./img/2-machine-learning/curse-of-dimensionality.png)
+![ Dimension of Curse of ](./images/2-ml/curse-of-dimensionality.png)
 
 Dimensional Curse is ** data Dimension As it increases corresponding Of space The size Exponentially Increased data liver The distance Exponentially Moving away Rare The structure Have felled Phenomenon ** Says this Solve For that Dimension As much as increased more many The data Add or PCA, LDA, LLE, MDS and same dimension reduction By algorithm Dimension Reduce To solve number there is .
 
@@ -225,7 +225,7 @@ Markov Chain is <strong> Markov temper Have Discrete Probability Discrete-time S
 
 $n+1$ meeting The state is Only in $n$ rounds status , or that before schedule Of the period Only in status Influence subject That thing It means . For example If you listen coin Throwing is independence It's an implementation Because of the $n$ th The status is Front or back Follow or not The $n+1$ th liver In the state Influence gist No. But the first one Markov The chain is $n$ th The state is $n+1$ th Status In deciding Influence Crazy . ( At time $t$ Observation is only The last $r$ For observation only Depends on Home do that Under the assumption ) is established .
 
-![ Markov Chain ](./img/2-machine-learning/markov-chain.png)
+![ Markov Chain ](./images/2-ml/markov-chain.png)
 
 To sum up Markov The chain is a ** random variable which In state reach The probability is only as soon as before Point of view In state Run present In case ** Points to .
 
@@ -235,11 +235,11 @@ For example Listen , today's The weather Yesterday's Only in the weather If you 
 
 The Markov ** model Above Under the assumption Probabilistic The model made As a thing most first each Status Definition ** to do becomes . The state is $ V = v_1, ..., v_m$ . Define and m The status is To exist felled It is . That The following is the <strong> state transition <strong>State transition probability </strong> To define number There is . Status transition What is probability? each In the state each In condition Move The probability Says . Status transition The probability $a_{ij}$ is In state $v_i$ With state $v_j $ Move The probability It means . Below Cold situation transition The probability In this way Shown And that that Below is Probability of basic In the definition By situation transition Probability of It is a condition .
 
-![ situation transition probability ](./img/2-machine-learning/state-transition-probability.png)
+![ situation transition probability ](./images/2-ml/state-transition-probability.png)
 
 and Status and situation transition The probability <strong> Situation in order Also called <strong> state transition diagram</strong> To express number there is .
 
-![ situation State Transition Diagram ](./img/2-machine-learning/state-transition-diagram.png)
+![ situation State Transition Diagram ](./images/2-ml/state-transition-diagram.png)
 
 #### References
 
@@ -291,7 +291,7 @@ LDA is Topic of The title Don't decide But , this At this point The algorithm Th
 
 SVM (Support Vector Machine) is The data is Thoughtful ** Border in space ** is expressed , and in space ** There are several boundary middle most big Width Have The border Find .**
 
-![SVM](./img/2-machine-learning/svm.png)
+![SVM](./images/2-ml/svm.png)
 
 - $B_1$: Decision boundary
 - $b_{11}$: plus-plane
@@ -312,9 +312,9 @@ Margin is the space between plus-plane and minus-plane. The distance It means **
 
 SVM is Linear Just classification Not ** nonlinear Also in category ** It is used , nonlinear In the classification Input data Multidimensional Spatially To map When <strong> kernel <strong> Trick (kernel trick)</strong> Also use . The original space (Input Space ) The data Linear classification possible Higher dimension To Space (Feature Space) Mapped back two Category Classifying Superplane Find . (Kernel-SVM)
 
-![](./img/2-machine-learning/input-space-and-feature-space.png)
+![](./images/2-ml/input-space-and-feature-space.png)
 
-![](./img/2-machine-learning/kernel-svm.png)
+![](./images/2-ml/kernel-svm.png)
 
 > ** Kernel Trick (Kernel Trick)**
 
@@ -322,7 +322,7 @@ Kernel The function Using ** dimensions space (low dimensional space ) Higher di
 
 Kernel Function of The type is Next It's the same .
 
-![ Kernel Function of Type ](./img/2-machine-learning/kernel-function.png)
+![ Kernel Function of Type ](./images/2-ml/kernel-function.png)
 
 #### References
 
@@ -546,7 +546,7 @@ thus The model Not complicated Not Simply Make and what The feature which The ca
 
 Deep Learning Previous Artificial neural networks Linearly only Regression , classification To perform because Layer deep Stack Couldn't do it , because of XOR problem same complicated The problem Solve Can't do it The problem is There was .
 
-![XOR problem ](./img/2-machine-learning/xor.png)
+![XOR problem ](./images/2-ml/xor.png)
 
 but Sigmoid and same Nonlinear The function Linear In the model Adding XOR problem Solve and differentiate Chain rule Used Backpropagation of error By way of The model To update number Have As it becomes Layer deep Stacked Deep Learning Artificial neural network Developed .
 
@@ -582,7 +582,7 @@ ROC curve is ** binary classification Model's Performance ** representative It i
 The model It's true Predicting The case is **FPR** (False Positive Rate, real The value It's a lie time ) and **TPR** (True Positive Rate, actual The value True When ) two In case It is divided .
 FPR and TPR On the graph, the x- axis and y- axis at the same time The ROC curve expressed Through The model how much correct The value well Predicting egg number Have It can be done .
 
-![ROC curve ](./img/2-machine-learning/roc.png)
+![ROC curve ](./images/2-ml/roc.png)
 
 The ROC curve Top left and near case good As a model To judge number There is a model called FPR . Low , TPR is High Predict Because .
 
@@ -664,7 +664,7 @@ loss is data Value and calculation Value of By difference The model has loss Min
 
 Norm is Vector's Size representative As such, L1 Norm is Vector's Absolute value Size , and L2 Norm is beeline Distance ( square of root ) It shows .
 
-![Norm](./img/2-machine-learning/norm.png)
+![Norm](./images/2-ml/norm.png)
 
 stomach In the picture The green line is the L2 norm . Meaning , and the rest The line is L1 norm It means .
 
@@ -732,7 +732,7 @@ But k- fold Cross validation The method is Randomly generate validation dataset 
 
 k- fold by layer Cross validation The method is k- fold Cross validation fold in method When dividing , fold randomly Specifying That is No , each By class The ratio Fold considering Composing It is a method .
 
-![ hierarchical k- fold Cross validation ](./img/2-machine-learning/stratified-kfold.png)
+![ hierarchical k- fold Cross validation ](./images/2-ml/stratified-kfold.png)
 
 > ** 💡 Why test dataset Only If you verify Will it not work ?**
 > All train datasets Learning and test dataset Verified The results I confirm it Let's do it . The developer should create a test dataset. Score Raise For , in the test dataset To be biased The model Tune in Will be It is . But important It is in the test dataset About Korea Accuracy Height thing Not only that , the model general Accuracy Height It is . Some The data is Even if you come in Constantly high Accuracy Showing The model good Because you're a model will do number Therefore , we have a validation dataset and a test dataset. Separately Verifying The process Through the model Need to generalize Do .
@@ -775,7 +775,7 @@ What is GBM(Gradient Boosting Algorithm)** Regression analysis or classification
 
 #### Ensemble In the method which Things Do you have it ?
 
-![ Ensemble Technique ](./img/2-machine-learning/ensemble.png)
+![ Ensemble Technique ](./images/2-ml/ensemble.png)
 
 ** Ensemble ** is Several The model Combined that The results Pull out smoking It is a method . " Accuracy high strong The model one Using More accurate than low weak The model Several mixture doing of the way Accuracy " high " is In concept Including It is a method . `Bagging`, `Boosting`, `Stacking`, etc. The method there is .
 
@@ -853,7 +853,7 @@ For example , the prediction If it's a purpose , then it's real Correct answer a
 
 50 of small Decision making The tree The `Bagging` technique in ensembles Used As a model cheek number There is . Therefore , Bagging Representative The method is the `Random Forest` method. why Is it good? Explaining As such , why 50 small Decision making The tree more Is it better? I want to explain Do it .
 
-![](./img/2-machine-learning/random-forest-bagging.png)
+![](./images/2-ml/random-forest-bagging.png)
 
 big The tree small Bias and big Variance Have Because , very depth adult The tree In training data about Overfitting It can be done using the Random Forest method. When you learn , the trees Bias is like that While maintaining , ** several Dataset / Multiple In case about Learn Because Dispersion ** to reduce number There is . Also one doggy Decision tree In this case , in the train data present In the noise about very Sensitive , but many The trees While making The average Inside , ** noise about Gangin ** sunset number There is . Therefore One deep / big Decision making 50 more than trees small Decision making The tree more good The model I'm going to finish it will do number there is .
 
@@ -879,7 +879,7 @@ Random Forest is several doctor decision The tree Created later Majority rule (h
 
 Spam The filter is The mail Spam Is it mail? Whether or not About Korea The probability Calculate and ** classify ** the mail . It's a problem . Logistics Regression is Regression Based on The data is which In category Belong to The probability is between 0 and 1. By value Predict and that In probability according to Possibility more high In category under As a result It does classification map Learning It is an algorithm . In particular, ** the input value is ever so Big or Even if it's small, it's between 0 and 1 By value Mapping ** In that respect In classification problems It is suitable . Therefore Logistic The regression In the spam filter many is used .
 
-![](./img/2-machine-learning/linear-and-logistic-regression.png)
+![](./images/2-ml/linear-and-logistic-regression.png)
 
 > ** In classification problems Logistic The regression appropriate reason **
 
@@ -907,7 +907,7 @@ In this way, H(x ) The value is between 0 and 1 When it comes out , regression i
 At this time, the `new` data in ` Figure 2` New I came in Let's try it . The graph is new Data ` new` Influence Take it , down Tilted In the form of Updated , ` Figure 3` Red graph The shape It can be done .
 like this If it is , it is originally 1 well Classified Of things The predicted value is Below the existing threshold It goes down to 0 Being classified The problem is It happens .
 
-![](./img/2-machine-learning/classification-and-linear-regression.png)
+![](./images/2-ml/classification-and-linear-regression.png)
 
 Linear regression The function is which The input value is Whether you come in or not So between **0 and 1 Range It also ** escapes .
 
@@ -937,7 +937,7 @@ $$
 {\hat {\beta}}=(\mathbf { )}^{-1}{\big (} ~ {\textstyle \sum }\mathbf x_i y_i ~ {\big)}
 $$
 
-![](./img/2-machine-learning/ols.png)
+![](./images/2-ml/ols.png)
 
 For example , 7 Of the data The trend representative The trend line is shown in ` Figure 2` together I drew it let's do it .
 At this time Actual The y value ( actual value ) of the data and The y value ( predicted value ) of the trend line The car is called ** residual ** do . ( below On the graph The remainder is In a dotted line mark )
@@ -946,7 +946,7 @@ Residual Square of The sum is in `TOTAL AREA` of ` Figure 3` Applicable Area and
 
 Residual Square of Sum Seeking Cold Below It's the same .
 
-![](./img/2-machine-learning/rss.png)
+![](./images/2-ml/rss.png)
 
 Blue Than the trend line purple Trend line The square of the residual The sum more It's small . So Blue Than the trend line purple The trend line The above 7 The data more well Expressing It's a trend line egg number there is .
 like this Residual Square of Sum At least doing The method It is the least squares method , and the least squares method By utilizing The data most well Expressing Linear The regression line grill number there is .
