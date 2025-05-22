@@ -34,25 +34,21 @@
 
 ## #1
 
-### Can you explain the metrics you know? (e.g., RMSE, MAE, recall, precision...)
+### Can you explain the Evaluation Metrics for classification metrics and regression?
 
 Evaluation metrics can broadly be categorized into **classification metrics** and **regression metrics**.
 
----
-
 ### **Classification Metrics**
 
-> **Accuracy**
-
-Accuracy measures **how often the model makes correct predictions**. It is calculated as:
+> **1. Accuracy** Accuracy measures **how often the model makes correct predictions**. It is calculated as:
 
 ```
 Accuracy = (Number of correct predictions) / (Total number of predictions)
 ```
 
-Accuracy is **not reliable** when the data is imbalanced. For instance, if 90% of labels are 0 and the model always predicts 0, it still gets 90% accuracy — misleadingly high.
+Accuracy is **not reliable** when the data is **imbalanced**. For instance, if 90% of labels are 0 and the model always predicts 0, it still gets 90% accuracy, - misleadingly high.
 
-> **Confusion Matrix**
+> **2. Confusion Matrix**
 
 ![Confusion Matrix](./img/2-machine-learning/confusion-matrix.png)
 
@@ -68,7 +64,7 @@ From this, accuracy can be calculated as:
 Accuracy = (TP + TN) / (TP + TN + FP + FN)
 ```
 
-> **Precision and Recall**
+> **3. Precision and Recall**
 
 Precision and Recall focus on **performance regarding positive class predictions**:
 
@@ -77,7 +73,7 @@ Precision and Recall focus on **performance regarding positive class predictions
 
 They **trade off**: increasing precision can reduce recall and vice versa. A good model balances both.
 
-> **F1 Score**
+> **4. F1 Score**
 
 F1 Score is the **harmonic mean of precision and recall**, representing a balanced metric.
 
@@ -85,7 +81,7 @@ F1 Score is the **harmonic mean of precision and recall**, representing a balanc
 F1 = 2 * (precision * recall) / (precision + recall)
 ```
 
-> **ROC-AUC**
+> **5. ROC-AUC**
 
 ![ROC Curve](./img/2-machine-learning/roc-curve.png)
 
@@ -100,7 +96,7 @@ AUC (Area Under the Curve) reflects the **overall model performance**. Higher AU
 
 ### **Regression Metrics**
 
-> **MAE (Mean Absolute Error)**
+> **1. MAE (Mean Absolute Error)**
 
 The **average of absolute errors** between predicted and actual values.
 
@@ -108,7 +104,7 @@ The **average of absolute errors** between predicted and actual values.
 MAE = (1/N) * Σ |y_i - ŷ_i|
 ```
 
-> **MSE (Mean Squared Error)**
+> **2. MSE (Mean Squared Error)**
 
 The **average of squared errors** — more sensitive to outliers due to squaring.
 
@@ -116,7 +112,7 @@ The **average of squared errors** — more sensitive to outliers due to squaring
 MSE = (1/N) * Σ (y_i - ŷ_i)^2
 ```
 
-> **RMSE (Root Mean Squared Error)**
+> **3. RMSE (Root Mean Squared Error)**
 
 The square root of MSE — in the same unit as the target.
 
@@ -124,7 +120,7 @@ The square root of MSE — in the same unit as the target.
 RMSE = √MSE
 ```
 
-> **RMSLE (Root Mean Squared Logarithmic Error)**
+> **4. RMSLE (Root Mean Squared Logarithmic Error)**
 
 Like RMSE but on the **logarithmic scale**, useful when the target has exponential growth:
 
@@ -132,7 +128,7 @@ Like RMSE but on the **logarithmic scale**, useful when the target has exponenti
 RMSLE = √(1/N * Σ (log(y_i + 1) - log(ŷ_i + 1))^2)
 ```
 
-> **R-squared (Coefficient of Determination)**
+> **5. R-squared (Coefficient of Determination)**
 
 Measures how much **variance in the target variable** is explained by the model. Ranges from 0 to 1.
 
