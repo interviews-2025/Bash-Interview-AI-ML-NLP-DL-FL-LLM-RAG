@@ -148,11 +148,11 @@ There are two representative normalization methods:
 #### 1. **Min-Max Normalization**
 
 Min-Max Normalization rescales the feature to a fixed range, usually \([0, 1]\). It transforms the data using the following formula:
-
+```
 \[
 x_{\text{normalized}} = \frac{x - \text{min}}{\text{max} - \text{min}}
 \]
-
+```
 Where:
 - \(x\) is the original value,
 - \(\text{min}\) is the minimum value of the feature,
@@ -165,14 +165,19 @@ This method preserves the relationships between data but is sensitive to outlier
 #### 2. **Z-score Normalization (Standardization)**
 
 Z-score normalization standardizes features by removing the mean and scaling to unit variance. The formula is:
-
+```
 \[
 x_{\text{standardized}} = \frac{x - \mu}{\sigma}
 \]
-
+```
 Where:
 - \(x\) is the original value,
 - \(\mu\) is the mean of the feature,
 - \(\sigma\) is the standard deviation of the feature.
 
 This method is robust to outliers and is preferred when data is normally distributed.
+
+## #3
+### Please explain Local Minima and Global Minimum.
+
+In the cost function, **the Global Minimum** is the point where the error is minimized, that is, the point we are looking for, and the **Local Minima** is the point where the error is minimized, minus the Global Minimum. The Local Minima can be likened to a trap because it can easily lead to the **mistake of finding the point where the error is minimized**. To solve this, you can use an optimization algorithm such as Momentum or adjust the learning rate well to escape the Local Minima.
