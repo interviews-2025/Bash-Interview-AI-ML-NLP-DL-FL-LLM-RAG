@@ -21,7 +21,7 @@ Supervised Learning uses labeled training data (input-output pairs) to learn a m
 
 ---
 
-### 🏷️ CLASSIFICATION
+### 🏷️ SUPERVISED LEARNING > CLASSIFICATION
 
 ### **Q3: What is Classification and what are its key algorithms?**
 Classification predicts discrete categories or classes. Key algorithms include:
@@ -63,7 +63,7 @@ Classification predicts discrete categories or classes. Key algorithms include:
 
 ---
 
-### 📈 REGRESSION
+### 📈 SUPERVISED LEARNING > REGRESSION
 
 ### **Q4: What is Regression and what are its main types?**
 Regression predicts continuous numerical values. Key algorithms include:
@@ -97,7 +97,7 @@ Unsupervised Learning finds hidden patterns in data without labeled examples. Ma
 
 ---
 
-### 🧩 CLUSTERING
+### 🧩 UNSUPERVISED LEARNING > CLUSTERING
 
 ### **Q6: What is Clustering and what are the different approaches?**
 Clustering groups similar data points together. Key algorithms include:
@@ -124,7 +124,7 @@ Clustering groups similar data points together. Key algorithms include:
 
 ---
 
-### 🧮 DIMENSIONALITY REDUCTION
+### 🧮 UNSUPERVISED LEARNING > DIMENSIONALITY REDUCTION
 
 ### **Q7: What is Dimensionality Reduction and why is it important?**
 Dimensionality Reduction reduces the number of features while preserving important information. Key techniques include:
