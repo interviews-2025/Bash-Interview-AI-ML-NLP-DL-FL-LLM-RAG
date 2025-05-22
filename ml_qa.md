@@ -1,7 +1,7 @@
 ## Table of Contents
 
 - [Can you explain the Evaluation Metrics for classification metrics and regression?](#1)
-- [Why do we need normalization? What are some normalization methods?](#2)
+- [Why do we need normalization? What are two methods of normalization?](#2)
 - [What are Local Minima and Global Minimum?](#3)
 - [What is the curse of dimensionality?](#4)
 - [What are common dimensionality reduction techniques?](#5)
@@ -89,6 +89,7 @@ ROC (Receiver Operating Characteristic) shows how **TPR (Recall)** varies with *
 
 - **TPR (Recall)** = TP / (TP + FN)
 - **FPR** = FP / (FP + TN)
+ How can we change FPR? We can do it by changing the classification decision threshold. If we want FPR to be 0, set the threshold to 1. Then, since the positivity standard is high, all will be predicted as negative. Conversely, if we want it to be 1, set the threshold to 0 so that all will be predicted as positive. The ROC is a curve drawn by setting the FPR and TPR that come out while moving the threshold in this way, as the x and y coordinates, respectively.
 
 AUC (Area Under the Curve) reflects the **overall model performance**. Higher AUC means the ROC curve is skewed toward the top-left, indicating better performance.
 
@@ -133,3 +134,45 @@ RMSLE = √(1/N * Σ (log(y_i + 1) - log(ŷ_i + 1))^2)
 Measures how much **variance in the target variable** is explained by the model. Ranges from 0 to 1.
 
 ---
+
+## #2
+
+### Why do we need normalization? What are the two methods of normalization?
+
+**Normalization** is the process of adjusting the scales of individual features to a common scale or unit. This is important because when features have significantly different scales, those with larger numerical ranges can disproportionately influence the model’s performance or learning process. Normalization ensures that each feature contributes equally, helping algorithms like gradient descent converge faster and improving model accuracy.
+
+There are two representative normalization methods:
+
+---
+
+#### 1. **Min-Max Normalization**
+
+Min-Max Normalization rescales the feature to a fixed range, usually \([0, 1]\). It transforms the data using the following formula:
+
+\[
+x_{\text{normalized}} = \frac{x - \text{min}}{\text{max} - \text{min}}
+\]
+
+Where:
+- \(x\) is the original value,
+- \(\text{min}\) is the minimum value of the feature,
+- \(\text{max}\) is the maximum value of the feature.
+
+This method preserves the relationships between data but is sensitive to outliers.
+
+---
+
+#### 2. **Z-score Normalization (Standardization)**
+
+Z-score normalization standardizes features by removing the mean and scaling to unit variance. The formula is:
+
+\[
+x_{\text{standardized}} = \frac{x - \mu}{\sigma}
+\]
+
+Where:
+- \(x\) is the original value,
+- \(\mu\) is the mean of the feature,
+- \(\sigma\) is the standard deviation of the feature.
+
+This method is robust to outliers and is preferred when data is normally distributed.
