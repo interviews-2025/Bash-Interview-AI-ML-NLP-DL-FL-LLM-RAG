@@ -50,7 +50,7 @@ Accuracy is **not reliable** when the data is **imbalanced**. For instance, if 9
 
 > **2. Confusion Matrix**
 
-![Confusion Matrix](./img/2-machine-learning/confusion-matrix.png)
+![Confusion Matrix](./images/confusion-matrix.png)
 
 A confusion matrix shows **how often predictions are confused**. Common in binary classification, it consists of:
 - **TP (True Positive)**: Predicted positive, actually positive.
@@ -83,7 +83,7 @@ F1 = 2 * (precision * recall) / (precision + recall)
 
 > **5. ROC-AUC**
 
-![ROC Curve](./img/2-machine-learning/roc-curve.png)
+![ROC Curve](./images/roc-curve.png)
 
 ROC (Receiver Operating Characteristic) shows how **TPR (Recall)** varies with **FPR (False Positive Rate)** as the threshold changes.
 
