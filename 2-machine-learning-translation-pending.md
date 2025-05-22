@@ -1,76 +1,70 @@
-# Translation Pending
-
-This markdown file contains content in Korean. Translation to English will need to be performed externally due to unavailability of translation libraries in this environment.
-
----
-
-> **📌 질문은 <strong>[zzsza님의 Datascience-Interview-Questions](https://github.com/zzsza/Datascience-Interview-Questions)</strong>를 참고하였습니다.**
+> ** 📌 For questions, please refer to <strong>[zzsza 's Datascience-Interview-Questions](https://github.com/zzsza/Datascience-Interview-Questions) </strong> Note : **
 
 ## Table of Contents
 
-- [알고 있는 metric에 대해 설명해주세요. (ex. RMSE, MAE, recall, precision ...)](#1)
-- [정규화를 왜 해야할까요? 정규화의 방법은 무엇이 있나요?](#2)
-- [Local Minima와 Global Minimum에 대해 설명해주세요.](#3)
-- [차원의 저주에 대해 설명해주세요.](#4)
-- [dimension reduction 기법으로 보통 어떤 것들이 있나요?](#5)
-- [PCA는 차원 축소 기법이면서, 데이터 압축 기법이기도 하고, 노이즈 제거기법이기도 합니다. 왜 그런지 설명해주실 수 있나요?](#6)
-- [LSA, LDA, SVD 등의 약자들이 어떤 뜻이고 서로 어떤 관계를 가지는지 설명할 수 있나요?](#7)
-- [Markov Chain을 고등학생에게 설명하려면 어떤 방식이 제일 좋을까요?](#8)
-- [텍스트 더미에서 주제를 추출해야 합니다. 어떤 방식으로 접근해 나가시겠나요?](#9)
-- [SVM은 왜 반대로 차원을 확장시키는 방식으로 동작할까요? SVM은 왜 좋을까요?](#10)
-- [다른 좋은 머신 러닝 대비, 오래된 기법인 나이브 베이즈(naive bayes)의 장점을 옹호해보세요.](#11)
-- [회귀 / 분류시 알맞은 metric은 무엇일까?](#12)
-- [Association Rule의 Support, Confidence, Lift에 대해 설명해주세요.](#13)
-- [최적화 기법중 Newton’s Method와 Gradient Descent 방법에 대해 알고 있나요?](#14)
-- [머신러닝(machine)적 접근방법과 통계(statistics)적 접근방법의 둘간에 차이에 대한 견해가 있나요?](#15)
-- [인공신경망(deep learning이전의 전통적인)이 가지는 일반적인 문제점은 무엇일까요?](#16)
-- [지금 나오고 있는 deep learning 계열의 혁신의 근간은 무엇이라고 생각하시나요?](#17)
-- [ROC 커브에 대해 설명해주실 수 있으신가요?](#18)
-- [여러분이 서버를 100대 가지고 있습니다. 이때 인공신경망보다 Random Forest를 써야하는 이유는 뭘까요?](#19)
-- [K-means의 대표적 의미론적 단점은 무엇인가요? (계산량 많다는것 말고)](#20)
-- [L1, L2 정규화에 대해 설명해주세요.](#21)
-- [Cross Validation은 무엇이고 어떻게 해야하나요?](#22)
-- [XGBoost을 아시나요? 왜 이 모델이 캐글에서 유명할까요?](#23)
-- [앙상블 방법엔 어떤 것들이 있나요?](#24)
-- [feature vector란 무엇일까요?](#25)
-- [좋은 모델의 정의는 무엇일까요?](#26)
-- [50개의 작은 의사결정 나무는 큰 의사결정 나무보다 괜찮을까요? 왜 그렇게 생각하나요?](#27)
-- [스팸 필터에 로지스틱 리그레션을 많이 사용하는 이유는 무엇일까요?](#28)
-- [OLS(ordinary least squre) regression의 공식은 무엇인가요?](#29)
+- [ I know In the existing metric about Please explain . (ex. RMSE, MAE, recall, precision ...)](#1)
+- [ Normalization why Should I do it ? Normalization The method is What is Is there one ?](#2)
+- [Local Minima and Global Minimum about Please explain .](#3)
+- [ Dimension In the curse about Please explain .](#4)
+- [ With dimension reduction technique commonly which Things Is there one ?](#5)
+- [PCA is dimension reduction As a technique , data compression It's also a technique And , noise It is also a removal technique I do . Why That's so Please explain number Is there one ?](#6)
+- [LSA, LDA, SVD , etc. The weak which It means each other which Relationship Have you got it? To explain number Is there one ?](#7)
+- [Markov Chain To high school students To explain which The method most Is it okay ?](#8)
+- [ Text In the pile The subject Need to extract I do . What kind of In a way Approach Would you like to go out ?](#9)
+- [SVM is why on the other way Dimension Expanding In a way Will it work ? SVM why Is it okay ?](#10)
+- [ different good Machine Running Contrast , old Technique Naive Bayes (naive bayes ) Advantages Defend it .](#11)
+- [ Regression / Classification The appropriate metric is What is it ?](#12)
+- [Association Rule 's Support, Confidence, Lift ] about Please explain .](#13)
+- [ Optimization Among the techniques, Newton's Method and Gradient Descent Method about I know Is there one ?](#14)
+- [ Machine learning ( machine) Approach and Statistics (statistics ) The approach Between the two In the difference About Korea The view is Is there one ?](#15)
+- [ Artificial neural network ( before deep learning ) Traditional ) Eggplant general The problem is What could it be ?](#16)
+- [ now Come out In the deep learning series Innovation of The basis is What is it Do you think so ?](#17)
+- [ROC curve about Please explain number Do you have it ?](#18)
+- [ You guys 100 servers have There is . At this time Random Forest is better than artificial neural network Have to write The reason is What is it ?](#19)
+- [K- means Representative Semantic The downside is What is it ? ( Calculation amount There are many Not to mention )](#20)
+- [L1, L2 regularization about Please explain .](#21)
+- [Cross Validation is What is it how Should I do it ?](#22)
+- [ XGBoost Do you know why ? this The model On Kaggle Will it be famous ?](#23)
+- [ Ensemble In the method which Things Is there one ?](#24)
+- [ What is a feature vector? What could it be ?](#25)
+- [ good Model's The definition is What could it be ?](#26)
+- [ 50 small Decision making The tree big Decision making Than a tree Is it okay ? Why like that Do you think ?](#27)
+- [ Spam In the filter Logistic Regression many Using The reason is What could it be ?](#28)
+- [OLS(ordinary least squre) regression The formula is What is it ?](#29)
 
 ---
 
 ## #1
 
-#### 알고 있는 metric에 대해 설명해주세요. (ex. RMSE, MAE, recall, precision ...)
+#### I know In the existing metric about Please explain . (ex. RMSE, MAE, recall, precision ...)
 
-평가지표(metric)을 크게 **분류를 위한 평가지표**와 **회귀를 위한 평가지표**로 나눌 수 있다.
+Evaluation indicator (metric ) ** categorized broadly For Evaluation criteria ** and ** regression For ** as evaluation criteria Divide number there is .
 
 ---
 
-우선 <strong>분류 작업(task)</strong>에 적용할 수 있는 평가지표를 살펴보자.
+First of all, <strong> classification <strong> In the task </strong> To apply number present Evaluation criteria Let's take a look .
 
-> **정확도(accuracy)**
+> ** Accuracy **
 
-정확도는 **모델의 예측이 얼마나 정확한지**를 의미한다. 정확도는 <strong>(예측 결과가 동일한 데이터 개수)/(전체 예측 데이터 개수)</strong>로 계산할 수 있다. 하지만 라벨 불균형이 있는 데이터에서 정확도를 사용하면 안 된다. 예를 들면, 0과 1의 비율이 9:1인 데이터가 있다고 했을 때, 모두 0으로 예측하면 정확도가 90%가 나올 것이다. 이는 잘못된 판단이므로 정확한 판단을 위해서는 다른 지표를 사용해야 한다.
+Accuracy is ** of the model The prediction is how much ** is it accurate ? It means that accuracy is <strong>( prediction The result Same data Number )/( Total prediction data <strong> number </strong> To calculate number There is . But Label Imbalance present In the data Accuracy If you use it not Yes . For example For example , 0 and 1 The ratio is 9: 1 The data is There is Did When , all to 0 If you predict Accuracy is 90% Come out It is . This is erroneous Because it is a judgment accurate Judgement For that different The indicator Must use Do it .
 
-> **오차 행렬(confusion matrix)**
+> ** Error Matrix (confusion matrix)**
 
-![오차 행렬](./img/2-machine-learning/confusion-matrix.png)
+![ error Matrix ](./img/2-machine-learning/confusion-matrix.png)
 
-오차 행렬은 **모델이 예측을 하면서 얼마나 헷갈리고 있는지를 보여주는 지표**이다. 주로 이진 분류에서 많이 사용하며 이진 분류에 대한 오차 행렬은 위의 그림처럼 같이 나타낼 수 있다. True Positive는 긍정으로 예측을 했는데 실제로 긍정인 경우를, False Positive는 긍정으로 예측했는데 실제로 부정인 경우를, False Negative는 부정으로 예측했는데 실제로 긍정인 경우를, True Negative는 부정으로 예측했는데 실제로 부정인 경우를 말한다. 위의 값을 바탕으로 모델이 어떤 오류를 발생시켰는지를 살펴볼 수 있다.
+error The matrix is ** model Prediction and how much I'm confused Whether it exists Showing It is an indicator ** . Mainly Binary In the category many In use Binary In classification About Korea error The matrix is Above Like a picture together To show number There is . True Positive is In a positive way Prediction I did it actually Positive In this case , False Positive is In a positive way I predicted it actually Negative In case of , False Negative is In a negative way I predicted it actually Positive In this case , True Negative is In a negative way I predicted it actually Negative In the case Says . Above The value Based on The model which Error Whether it caused it To look into number there is .
 
-참고로 정확도는 <strong>(TN + TP) / (TN + FP + FN + TP)</strong>로 계산할 수 있다.
+For reference Accuracy is <strong>(TN + TP) / (TN + FP + FN + TP)</strong> . To calculate number there is .
 
-> **정밀도(precision), 재현율(recall)**
+> ** Precision , recall **
 
-정밀도와 재현율은 **긍정 데이터 예측 성능에 초점을 맞춘 평가지표**이다. 정밀도란 **예측을 긍정으로 한 데이터 중 실제로 긍정인 비율**을 말하며, 재현율은 **실제로 긍정인 데이터 중 긍정으로 예측한 비율**을 말한다. 오차 행렬을 기준으로 정밀도는 <strong>TP / (FP + TP)</strong>으로, 재현율은 <strong>TP / (FN + TP)</strong>으로 계산할 수 있다.
+Precision and Reproducibility is ** positive data prediction In performance Focus on Fit ** is the evaluation index . Accuracy means ** the prediction In a positive way one data middle actually Positive Rate ** Speaking , the reproducibility is ** actually Positive data middle In a positive way As predicted Rate ** Says . Error The matrix As a standard Precision is <strong>TP / (FP + TP)</strong> , and recall is <strong>TP / (FN + TP)</strong> . To calculate number there is .
 
-정밀도와 재현율은 **트레이드오프 관계**를 갖는다. 정밀도는 FP를, 재현율은 FN을 낮춤으로써 긍정 예측의 성능을 높인다. 이 같은 특성 때문에 정밀도가 높아지면 재현율은 낮아지고 재현율이 높아지면 정밀도는 낮아진다. 가장 좋은 경우는 두 지표 다 적절히 높은 경우이다.
+Precision and Reproducibility is ** a tradeoff Relationship ** Precision is FP , and recall is FN . By lowering affirmation Prediction of Performance Raise it . This same characteristic because The precision When it gets higher The reproducibility is Getting lower The reproducibility When it gets higher The accuracy is It gets lower . Most good In the case two characteristic all accordingly high This is the case .
 
 > **F1-Score**
 
-**정밀도와 재현율 한 쪽에 치우치지 않고 둘 다 균형을 이루는 것**을 나타낸 것이 `F1-Score`이다. F1-Score는 정밀도와 재현율의 조화평균으로 계산할 수 있다.
+** Precision and Reproducibility one On the side Don't be biased Not two all Balance To do thing ** Shown That is `F1-Score` . F1- Score is Precision and Reproducibility By harmonic mean To calculate number there is .
 
 $$
 F1 = \frac{2}{\frac{1}{recall} + \frac{1}{precision}} = 2 * \frac{precision * recall}{precision + recall}
@@ -80,321 +74,321 @@ $$
 
 ![ROC AUC](./img/2-machine-learning/roc-curve.png)
 
-ROC는 **FPR(False Positive Rate)가 변할 때 TPR(True Positive Rate)가 어떻게 변하는지를 나타내는 곡선**을 말한다. 여기서 FPR이란 <strong>FP / (FP + TN)</strong>이고, TPR은 <strong>TP / (FN + TP)</strong>으로 재현율을 말한다. 그럼 어떻게 FPR을 움직일까? 바로 분류 결정 임계값을 변경함으로써 움직일 수 있다. FPR이 0이 되려면 임계값을 1로 설정하면 된다. 그럼 긍정의 기준이 높으니 모두 부정으로 예측될 것이다. 반대로 1이 되려면 임계값을 0으로 설정하여 모두 긍정으로 예측시키면 된다. 이렇게 임계값을 움직이면서 나오는 FPR과 TPR을 각각 x와 y 좌표로 두고 그린 곡선이 ROC이다.
+ROC is **FPR(False Positive Rate ) Change When TPR(True Positive Rate ) how Whether it changes representative Curve ** Here , FPR is <strong>FP / (FP + TN)</strong> and TPR is <strong> TP / (FN + TP)</strong> . Reproducibility Say . Then How to FPR Should I move ? Right now classification decision Threshold By changing Move number There is . FPR is 0 To be Set the threshold to 1 If you set it Okay . Then Positive The standard is It's high every In a negative way To be predicted is . On the contrary, 1 is To be Set the threshold to 0 By setting every In a positive way If you predict It can be done like this Threshold While moving The FPR and TPR that come out Each with x and y coordinates Leave it green The curve is the ROC .
 
-AUC는 ROC 곡선의 넓이를 말한다. AUC가 높을수록 즉, AUC가 왼쪽 위로 휘어질수록 좋은 성능이 나온다고 판단한다. 즉, TPR이 높고 FPR이 낮을수록 예측 오류는 낮아지기 때문에 성능이 잘 나온다 볼 수 있다.
+AUC is the ROC curve The width Says AUC The higher the better That is , AUC left consolation The more it bends good Performance It's coming out Judge . That is , TPR is High and FPR The lower the better prediction The error is Get lower because Performance well Come out cheek number there is .
 
 ---
 
-마지막으로 **회귀 작업**에 적용할 수 있는 평가지표를 살펴보자.
+Finally ** Regression Work ** on To apply number present Evaluation criteria Let's take a look .
 
-MAE(Mean Absolute Error)는 **예측값과 정답값 사이의 차이의 절대값의 평균**을 말한다.
+MAE(Mean Absolute Error) is ** the difference between the predicted value and Correct answer Between Difference of Absolute value of Average ** Says .
 
 $$
 MAE = \frac{1}{N} \sum^N_{i=1} |y_i - \acute{y_i}|
 $$
 
-MSE(Mean Squared Error)는 **예측값과 정답값 사이의 차이의 제곱의 평균**을 말하며, MAE와 달리 제곱을 했기 때문에 이상치에 민감하다.
+MSE(Mean Squared Error) is ** the difference between the predicted value and Correct answer Between Difference of Square of Average ** Speaking , MAE and Differently Square Did because Outliers Sensitive .
 
 $$
 MSE = \frac{1}{N} \sum^N_{i=1} (y_i - \acute{y_i})^2
 $$
 
-RMSE(Root Mean Squared Error)는 **MSE에 루트를 씌운 값**을 말한다.
+RMSE(Root Mean Squared Error) is ** MSE Root Covered The value ** Says .
 
 $$
 RMSE = \sqrt{MSE} = \sqrt{\frac{1}{N} \sum^N_{i=1} (y_i - \acute{y_i})^2}
 $$
 
-RMSLE(Root Mean Squared Logarithmic Error)는 RMSE와 비슷하나 **예측값과 정답값에 각각 로그를 씌워 계산**을 한다.
+RMSLE (Root Mean Squared Logarithmic Error) is the difference between RMSE and Similar but ** predicted value To the correct answer Each Log Put on Calculate ** Do .
 
 $$
 RMSLE = \sqrt{\frac{1}{N} \sum^N_{i=1} (\log(y_i+1) - \log(\acute{y_i}+1))^2}
 $$
 
-R Squared는 **분산을 기반으로 예측 성능을 평가하는 지표**를 말한다. 정답값의 분산 대비 예측값의 분산 비율을 지표로 하며, 1에 가까울수록 정확도가 높다.
+R Squared is ** variance Based on prediction Performance To evaluate Indicator ** Says the correct answer dispersion Contrast The predicted value dispersion The ratio As an indicator And , in 1 The closer Accuracy It's high .
 
 #### References
 
 - [14 Popular Machine Learning Evaluation Metrics - RUBIK'S CODE](https://rubikscode.net/2020/10/19/14-popular-machine-learning-evaluation-metrics/)
 - [Metrics to Evaluate your Machine Learning Algorithm - towards data science](https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234)
-- [머신러닝 용어집 - 구글 머신러닝 단기 집중과정](https://developers.google.com/machine-learning/glossary)
-- [3. 평가 - 파이썬 머신러닝 완벽 가이드](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
-- [Regression 모델 평가 : MSE, MAE, RMSE, RMSLE, R-Squared - Steadiness](https://steadiness-193.tistory.com/277)
+- [ machine learning terminology - google Machine learning short (https://developers.google.com/machine-learning/glossary )
+- [3. Evaluation - Python Machine Learning Perfect Guide ](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
+- [Regression model Evaluation : MSE, MAE, RMSE, RMSLE, R-Squared - Steadiness](https://steadiness-193.tistory.com/277)
 
 ---
 
 ## #2
 
-#### 정규화를 왜 해야할까요? 정규화의 방법은 무엇이 있나요?
+#### Normalization why Should I do it ? Normalization The method is What is Do you have it ?
 
-정규화는 **개별 피처의 크기를 모두 똑같은 단위로 변경하는 것**을 말한다. 정규화를 하는 이유는 **피처의 스케일이 심하게 차이가 나는 경우 값이 큰 피처가 더 중요하게 여겨질 수 있기 때문**이다. 이를 막기 위해 피처 모두 동일한 스케일로 반영되도록 하는 것이 정규화이다.
+Normalization is ** individual Feature's Size every identical By unit Changing thing ** Says . Normalize doing The reason is ** feature The scale badly The difference I am case The value big The feature more Importantly be considered number Be there Because ** . This is stem for pitcher every Same On a scale To be reflected doing That is It's normalization .
 
-정규화하는 방법으로는 대표적으로 두 가지가 존재한다. 첫 번째 정규화 방법은 <strong>최소-최대 정규화(min-max normalization)</strong>으로 각 피처의 최소값을 0, 최대값을 1로 두고 변환하는 방법이다. 값을 $x$로, 최소값을 $min$, 최대값을 $max$로 둘 때, 정규화된 값은 $\frac{x - min}{max - min}$으로 계산할 수 있다. 두 번째 정규화 방법으로 <strong>Z-점수 정규화(z-score normalization)</strong>이 있다. 이 방법은 각 피처의 표준편차와 평균으로 값을 정규화시킨다. 정규화된 값은 $\frac{x - mean}{std}$로 계산할 수 있다.
+Normalizing By way of As a representative example two Eggplant exists . first The second Normalization The method is <strong> min - max <strong>With normalization (min-max normalization)</strong> each Feature's Set the minimum value to 0 and the maximum value to 1 Leave it Converting is a method . Let the value be $x$ , the minimum value be $min$, and the maximum value be $max$ . two When , normalized The value is $\frac{x - min}{max - min} $ To calculate number There are two . The second Normalization <strong>Z- score by method <strong> Normalization (z-score normalization) </strong> There is . This The method is each Feature's Standard deviation and On average The value Normalize . Normalized The value is $\frac{x - mean}{std} $ To calculate number there is .
 
 #### References
 
-- [정규화(Normalization) 쉽게 이해하기 - 아무튼 워라밸](http://hleecaster.com/ml-normalization-concept/)
-- [2. 사이킷런으로 시작하는 머신러닝 - 파이썬 머신러닝 완벽 가이드](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
+- [ Normalization made easy Understand - Anyway Work-life balance ](http://hleecaster.com/ml-normalization-concept/)
+- [2. With scikit-learn Getting started Machine Learning - Python Machine Learning Perfect Guide ](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
 
 ---
 
 ## #3
 
-#### Local Minima와 Global Minimum에 대해 설명해주세요.
+#### Local Minima and Global Minimum about Please explain .
 
-![Maxima와 Minima](./img/2-machine-learning/local-minima-global-minima.png)
+![Maxima and Minima](./img/2-machine-learning/local-minima-global-minima.png)
 
-비용 함수(cost function)에서의 **Global Minimum**은 에러가 최소화되는 즉, 우리가 찾고자 하는 지점을 말하며, **Local Minima**는 에러가 최소가 될 수 있는 후보가 되는 지점 중 Global Minimum을 뺀 지점을 말한다. Local Minima는 자칫 에러가 **최소화되는 지점을 찾았다고 착각**할 수 있기에 함정에 비유할 수 있다. 이를 해결하기 위해 Momentum과 같은 최적화 알고리즘을 사용하거나 학습률(learning rate)를 잘 조절하여 Local Minima에서 벗어날 수 있다.
+expense **Global Minimum** in the cost function is Error Minimized That is , we I want to find doing Branch Speaking , **Local Minima ** Error Minimum price Will be number present The candidate felled spot Among the Global Minimum minus Branch Says . Local Minima is If you're not careful ** errors are minimized Branch I found it ** be mistaken number Because there is In a trap To be likened to number There is . This Solve For Momentum and same Optimization The algorithm or use Learning rate well Adjust to Local Minima Get out number there is .
 
 #### References
 
-- [Local Minima 문제에 대한 새로운 시각 - 다크 프로그래머](https://darkpgmr.tistory.com/148)
+- [Local Minima Problem About Korea new Visual - Dark Programmer ](https://darkpgmr.tistory.com/148)
 - [Minima - Hong's](https://jihongl.github.io/2017/09/18/minima/)
 
 ---
 
 ## #4
 
-#### 차원의 저주에 대해 설명해주세요.
+#### Dimension In the curse about Please explain .
 
-![차원의 저주](./img/2-machine-learning/curse-of-dimensionality.png)
+![ Dimension of Curse of ](./img/2-machine-learning/curse-of-dimensionality.png)
 
-차원의 저주란 **데이터 차원이 증가할수록 해당 공간의 크기가 기하급수적으로 증가하여 데이터 간 거리가 기하급수적으로 멀어지고 희소한 구조를 갖게 되는 현상**을 말한다. 이를 해결하기 위해서는 차원을 증가시킨만큼 더 많은 데이터를 추가하거나 PCA, LDA, LLE, MDS와 같은 차원 축소 알고리즘으로 차원을 줄여 해결할 수 있다.
+Dimensional Curse is ** data Dimension As it increases corresponding Of space The size Exponentially Increased data liver The distance Exponentially Moving away Rare The structure Have felled Phenomenon ** Says this Solve For that Dimension As much as increased more many The data Add or PCA, LDA, LLE, MDS and same dimension reduction By algorithm Dimension Reduce To solve number there is .
 
 #### References
 
-- [차원의 저주(Curse of dimensionality) - BioinformaticsAndMe](https://bioinformaticsandme.tistory.com/197)
-- [차원의 문제 - 다크 프로그래머](https://darkpgmr.tistory.com/145)
-- [6. 차원 축소 - 파이썬 머신러닝 완벽 가이드](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
+- [ Dimension Curse of dimensionality - BioinformaticsAndMe](https://bioinformaticsandme.tistory.com/197)
+- [ Dimension Problem - Dark Programmer ](https://darkpgmr.tistory.com/145)
+- [6. Dimension Reduce - Python Machine Learning Perfect Guide ](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
 
 ---
 
 ## #5
 
-#### dimension reduction 기법으로 보통 어떤 것들이 있나요?
+Using dimension reduction techniques commonly which Things Do you have it ?
 
-차원 축소는 <strong>피처 선택(feature selection)</strong>과 <strong>피처 추출(feature extraction)</strong>으로 나눌 수 있다. 우선 피처 선택은 특정 피처에 종속성이 강한 불필요한 피처는 제거하고 데이터의 특징을 잘 표현하는 주요 피처만 선택하는 것을 말한다. 반면 피처 추출은 기존 피처를 저차원의 피처로 압축하여, 피처를 함축적으로 잘 설명할 수 있도록 저차원으로 매핑하는 것을 말한다. 대표적인 피처 추출 알고리즘으로 PCA, SVD, NMF, LDA 등이 있다.
+dimension Reduction is a <strong> feature <strong>Feature Selection</strong> and <strong> Features </strong> <strong> Feature extraction </strong> Divide number There is . First of all pitcher The choice is specific In the feature Dependency strong unnecessary The feature is Remove Of the data Features well Expressing Main Feature only Choosing That thing Says . On the other hand pitcher Extraction is existing The feature Low-dimensional As a feature Compress , feature implicitly well To explain number To be able to In low dimensions Mapping That thing Says . Representative pitcher extraction Algorithms include PCA, SVD, NMF, LDA , etc. there is .
 
 #### References
 
-- [6. 차원 축소 - 파이썬 머신러닝 완벽 가이드](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
+- [6. Dimension Reduce - Python Machine Learning Perfect Guide ](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
 
 ---
 
 ## #6
 
-#### PCA는 차원 축소 기법이면서, 데이터 압축 기법이기도 하고, 노이즈 제거기법이기도 합니다. 왜 그런지 설명해주실 수 있나요?
+#### PCA is dimension reduction As a technique , data compression It's also a technique And , noise It is also a removal technique I do . Why That's so Please explain number Do you have it ?
 
-PCA(Principle Component Analysis)는 **입력 데이터의 공분산 행렬을 기반으로 고유벡터를 생성하고 이렇게 구한 고유 벡터에 입력 데이터를 선형 변환하여 차원을 축소하는 방법**이다. 차원은 곧 입력 데이터의 피처를 뜻하므로 데이터 압축 기법으로 볼 수도 있다.
+PCA(Principle Component Analysis ) ** Input Of the data Covariance The matrix Based on Eigenvector Create and like this Saved inherence In vector input The data Linear Convert to Dimension Shrinking method ** is . The dimension is soon input Of the data The feature Because it means data compression By technique cheek capital there is .
 
-또한 PCA는 고유값이 가장 큰, 즉 데이터의 분산이 가장 큰 순으로 주성분 벡터를 추출하는데, 가장 나중에 뽑힌 벡터보다 가장 먼저 뽑힌 벡터가 데이터를 더 잘 설명할 수 있기 때문에 노이즈 제거 기법이라고도 불린다.
+Also , PCA The eigenvalue is most big , that is Of the data Dispersion most big In order chief ingredient Vector To extract , the most later Picked Than vector most first Picked The vector The data more well To explain number Be there because Noise eliminate Also called technique It is called .
 
 #### References
 
-- [6. 차원 축소 - 파이썬 머신러닝 완벽 가이드](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
-- [[기술면접] 차원축소, PCA, SVD, LSA, LDA, MF 간단정리 (day1 / 201009) - Hui_dea](https://huidea.tistory.com/126)
+- [6. Dimension Reduce - Python Machine Learning Perfect Guide ](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
+- [[ Technical Interview ] Dimension Reduction , PCA, SVD, LSA, LDA, MF Simple Summary (day1 / 201009) - Hui_dea](https://huidea.tistory.com/126)
 
 ---
 
 ## #7
 
-#### LSA, LDA, SVD 등의 약자들이 어떤 뜻이고 서로 어떤 관계를 가지는지 설명할 수 있나요?
+#### LSA, LDA, SVD, etc. The weak which It means each other which Relationship Have you got it? To explain number Do you have it ?
 
-`PCA`는 **Principle Component Analysis**의 약자로 데이터의 공분산 행렬을 기반으로 고유벡터를 생성하고 이렇게 구한 고유 벡터에 입력 데이터를 선형 변환하여 차원을 축소하는 방법이다. `SVD`는 **Singular Value Decomposition**의 약자로 PCA와 유사한 행렬 분해 기법을 사용하나 정방 행렬(square matrix)를 분해하는 PCA와 달리 행과 열의 크기가 다른 행렬에도 적용할 수 있다.
+`PCA` is **Principle Component Analysis ** In abbreviation Of the data Covariance The matrix Based on Eigenvector Create and like this Saved inherence In vector input The data Linear Convert to Dimension Shrinking is a method . `SVD` is **Singular Value Decomposition** . Abbreviated as PCA and analogous procession decomposition The technique Use it Square Matrix (square matrix ) Decomposing PCA and Differently Row and thermal The size different In the matrix too To apply number there is .
 
-`LSA`는 **Latent Semantic Analysis**의 약자로 잠재 의미 분석을 말하며, 주로 토픽 모델링에 자주 사용되는 기법이다. LSA는 DTM(Document-Term Matrix)이나 TF-IDF(Term Frequency-Inverse Document Frequency) 행렬에 Truncated SVD를 적용하여 차원을 축소시키고, 단어들의 잠재적인 의미를 이끌어낸다. Truncated SVD는 SVD와 똑같으나 상위 n개의 특이값만 사용하는 축소 방법이다. 이 방법을 쓸 경우 원 행렬로 복원할 수 없다.
+`LSA` stands for **Latent Semantic Analysis** In abbreviation Potential meaning Analysis Speaking , mainly Topic In modeling often Used It is a technique . LSA applies Truncated SVD to DTM (Document-Term Matrix) or TF-IDF (Term Frequency-Inverse Document Frequency) matrix . Apply to Dimension Reduce and the words Potential Meaning It derives . Truncated SVD is SVD and Same but Top n Only singular values Using reduction It is a method . This How to Write case one In a matrix To restore number does not exist .
 
-`LDA`는 **Latent Dirichlet Allocation** 혹은 **Linear Discriminant Analysis**의 약자이다. 전자는 토픽모델링에 사용되는 기법 중 하나로 LSA와는 달리 단어가 특정 토픽에 존재할 확률과 문서에 특정 토픽이 존재할 확률을 결합확률로 추정하여 토픽을 추정하는 기법을 말한다. 후자는 차원축소기법 중 하나로 분류하기 쉽도록 클래스 간 분산을 최대화하고 클래스 내부의 분산은 최소화하는 방식을 말한다.
+`LDA` is **Latent Dirichlet Allocation** or **Linear Discriminant Analysis** . It is an abbreviation . The former is In topic modeling Used techniques middle With LSA as one Differently The word specific On the topic To exist Probability and In the document specific The topic is To exist The probability With joint probability Estimated Topic Estimating The technique says the latter Dimension reduction technique middle In one Classify Easy to do class liver Dispersion Maximize and class Inside Dispersion is Minimizing The way Says .
 
-> **Latent Dirichlet Allocation**와 관련된 자세한 내용은 [#9 텍스트 더미에서 주제를 추출해야 합니다. 어떤 방식으로 접근해 나가시겠나요?](#9)을 참고해주세요!
+> **Latent Dirichlet Allocation** and relevant full The content is [#9 Text In the pile The subject Need to extract I do . What kind of In a way Approach Would you like to go out ?](#9 ) Please note !
 
 #### References
 
-- [잠재 의미 분석(Latent Semantic Analysis, LSA) - 딥러닝을 이용한 자연어 처리 입문](https://wikidocs.net/24949)
-- [잠재 디리클레 할당(Latent Dirichlet Allocation, LDA) - 딥러닝을 이용한 자연어 처리 입문](https://wikidocs.net/30708)
-- [문서 단어 행렬(Document-Term Matrix, DTM) - 딥러닝을 이용한 자연어 처리 입문](https://wikidocs.net/24559)
-- [TF-IDF(Term Frequency-Inverse Document Frequency) - 딥러닝을 이용한 자연어 처리 입문](https://wikidocs.net/31698)
-- [6. 차원 축소 - 파이썬 머신러닝 완벽 가이드](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
+- [ Potential meaning Analysis (Latent Semantic Analysis, LSA) - Deep Learning Used Natural language treatment Introduction ](https://wikidocs.net/24949)
+- [ Potential Dirichlet Allocation (Latent Dirichlet Allocation, LDA) - Deep Learning Used Natural language treatment Introduction ](https://wikidocs.net/30708)
+- [ document word Document -Term Matrix (DTM) - Deep Learning Used Natural language treatment Introduction ](https://wikidocs.net/24559)
+- [TF-IDF(Term Frequency-Inverse Document Frequency) - Deep learning Used Natural language treatment Introduction ](https://wikidocs.net/31698)
+- [6. Dimension Reduce - Python Machine Learning Perfect Guide ](http://www.yes24.com/Product/Goods/87044746?OzSrank=1)
 
 ---
 
 ## #8
 
-#### Markov Chain을 고등학생에게 설명하려면 어떤 방식이 제일 좋을까요?
+#### Markov Chain To high school students To explain which The method most Is it okay ?
 
-> **마코프 체인(Markov Chain)**
+> ** Markov Chain (Markov Chain)**
 
-마코프 체인이란 <strong>마코프 성질을 지닌 이산 확률 과정(Discrete-time Stochastic Process)</strong>을 말한다.
+Markov Chain is <strong> Markov temper Have Discrete Probability Discrete-time Stochastic Process </strong> Says .
 
-> **마코프 성질(Markov Property)**
+> ** Markov Markov Property **
 
-$n+1$회의 상태(state)는 오직 $n$회에서의 상태, 혹은 그 이전 일정 기간의 상태에만 영향을 받는 것을 의미한다. 예를 들면 동전 던지기는 독립 시행이기 때문에 $n$번째의 상태가 앞이던지 뒤이던지 간에 $n+1$번째 상태에 영향을 주지 않는다. 하지만 1차 마코프 체인은 $n$번째 상태가 $n+1$번째 상태를 결정하는데에 영향을 미친다. (시간 $t$에서의 관측은 단지 최근 $r$개의 관측에만 의존한다는 가정을 하고 그 가정하에서 성립한다.)
+$n+1$ meeting The state is Only in $n$ rounds status , or that before schedule Of the period Only in status Influence subject That thing It means . For example If you listen coin Throwing is independence It's an implementation Because of the $n$ th The status is Front or back Follow or not The $n+1$ th liver In the state Influence gist No. But the first one Markov The chain is $n$ th The state is $n+1$ th Status In deciding Influence Crazy . ( At time $t$ Observation is only The last $r$ For observation only Depends on Home do that Under the assumption ) is established .
 
-![마코프 체인](./img/2-machine-learning/markov-chain.png)
+![ Markov Chain ](./img/2-machine-learning/markov-chain.png)
 
-정리하면 마코프 체인은 **확률변수(random variable)가 어떤 상태(state)에 도달할 확률이 오직 바로 이전 시점의 상태(state)에 달려 있는 경우**를 가리킨다.
+To sum up Markov The chain is a ** random variable which In state reach The probability is only as soon as before Point of view In state Run present In case ** Points to .
 
-예를 들어, 오늘의 날씨가 어제의 날씨에만 의존하면 1차 마코프 체인, 이틀 전까지의 날씨에만 의존하면 2차 마코프 체인이다.
+For example Listen , today's The weather Yesterday's Only in the weather If you depend on it, it 's primary Markov Chain , two days Until now Only in the weather If you depend on it, it's secondary Markov It's a chain .
 
-> **마코프 모델(Markov Model)**
+> ** Markov Model (Markov Model)**
 
-마코프 **모델은 위의 가정하에 확률적 모델을 만든 것으로써 가장 먼저 각 상태를 정의**하게 된다. 상태(state)는 $V = v_1, ... , v_m$로 정의하고, m개의 상태가 존재하게 되는 것이다. 그 다음은 <strong>상태 전이 확률(State transition Probability)</strong>을 정의할 수 있다. 상태 전이 확률이란 각 상태에서 각 상태로 이동할 확률을 말한다. 상태 전이 확률 $a_{ij}$는 상태 $v_i$에서 상태 $v_j$로 이동할 확률을 의미한다. 아래의 식은 상태 전이 확률을 식으로 나타낸 것과 그 아래는 확률의 기본 정의에 의한 상태 전이 확률의 조건이다.
+The Markov ** model Above Under the assumption Probabilistic The model made As a thing most first each Status Definition ** to do becomes . The state is $ V = v_1, ..., v_m$ . Define and m The status is To exist felled It is . That The following is the <strong> state transition <strong>State transition probability </strong> To define number There is . Status transition What is probability? each In the state each In condition Move The probability Says . Status transition The probability $a_{ij}$ is In state $v_i$ With state $v_j $ Move The probability It means . Below Cold situation transition The probability In this way Shown And that that Below is Probability of basic In the definition By situation transition Probability of It is a condition .
 
-![상태 전이 확률](./img/2-machine-learning/state-transition-probability.png)
+![ situation transition probability ](./img/2-machine-learning/state-transition-probability.png)
 
-그리고 상태와 상태 전이 확률을 정리하여 <strong>상태 전이도(state transition diagram)</strong>으로도 표현할 수 있다.
+and Status and situation transition The probability <strong> Situation in order Also called <strong> state transition diagram</strong> To express number there is .
 
-![상태 전이도](./img/2-machine-learning/state-transition-diagram.png)
+![ situation State Transition Diagram ](./img/2-machine-learning/state-transition-diagram.png)
 
 #### References
 
 - [Markov Chain - MLWiki](https://sites.google.com/site/machlearnwiki/RBM/markov-chain)
-- [[기술면접] Markov Chain, Gibbs Sampling, 마르코프 체인, 깁스 샘플링 (day2 / 201010) - huidea](https://huidea.tistory.com/128?category=879541)
-- [(Bayes 학습)(4)마르코프 연쇄-(1) - 정보사회학연구소](http://piramvill2.org/?p=905)
+- [[ Technical Interview ] Markov Chain, Gibbs Sampling, Markov Chain , Gibbs Sampling (day2 / 201010) - huidea](https://huidea.tistory.com/128?category=879541)
+- [(Bayes Learning )(4) Markov Chain - (1) - Information Society Research Institute ](http://piramvill2.org/?p=905)
 
 ---
 
 ## #9
 
-#### 텍스트 더미에서 주제를 추출해야 합니다. 어떤 방식으로 접근해 나가시겠나요?
+#### Text In the pile The subject Need to extract I do . What kind of In a way Approach Would you like to go out ?
 
-> **잠재 디리클레 할당(Latent Dirichlet Allocation, LDA)**
+> ** Potential Dirichlet Latent Dirichlet Allocation (LDA)**
 
-잠재 디리클레 할당(LDA)이란 **문서의 집합에서 토픽을 찾아내는 프로세스를 뜻하는 토픽 모델링의 대표적인 알고리즘**을 말한다. LDA는 "문서들은 토픽들의 혼합으로 구성되어져 있으며, 토픽들은 확률 분포에 기반하여 단어들을 생성한다"고 가정하며, 데이터가 주어지면 LDA는 토픽을 문서가 생성되던 과정을 역추적한다.
+Potential Dirichlet Allocation (LDA) is ** the document In the set Topic Finding out The process Meaning Topic Modeling of Representative Algorithm ** says LDA, " Documents are Topics of By mixing It is composed of , and the topics are Probability In the distribution Based on The words " Create " Assuming that the data is Given LDA , Topic The document Was being created The process Backtrack .
 
-예를 들어, 다음과 같은 예시 문장 3개가 있다고 가정하자.
+For example Come on , next same example 3 sentences There is Let's assume .
 
 ```text
-문서1 : 저는 사과랑 바나나를 먹어요
-문서2 : 우리는 귀여운 강아지가 좋아요
-문서3 : 저의 깜찍하고 귀여운 강아지가 바나나를 먹어요
+Document 1: I am With apples Banana eat
+Document 2: We cute The puppy great
+Document 3: My Cute and cute The puppy Banana eat
 ```
 
-LDA를 통해 각 문서의 **토픽 분포**와 **각 토픽 내의 단어 분포**를 추정할 수 있다.
+LDA Through each ** Topics in the document Distribution ** and ** each Topic undergarment word Distribution ** Estimate number there is .
 
-- **각 문서의 토픽 분포**
-  - 문서1 : 토픽 A 100%
-  - 문서2 : 토픽 B 100%
-  - 문서3 : 토픽 B 60%, 토픽 A 40%
-- **각 토픽의 단어 분포**
-  - 토픽A : 사과 20%, 바나나 40%, 먹어요 40%, 귀여운 0%, 강아지 0%, 깜찍하고 0%, 좋아요 0%
-  - 토픽B : 사과 0%, 바나나 0%, 먹어요 0%, 귀여운 33%, 강아지 33%, 깜찍하고 16%, 좋아요 16%
+- ** each Of the document Topic distribution **
+- Document 1: Topic A 100%
+- Document 2: Topic B 100%
+- Document 3: Topic B 60%, Topic A 40%
+- ** each Topic of word distribution **
+- Topic A: Apple 20%, Banana 40%, Eat 40%, Cute 0%, Puppy 0%, Cute 0%, Like 0%
+- Topic B: Apple 0%, Banana 0%, Eat 0%, Cute 33%, Puppy 33%, Cute 16%, Like 16%
 
-LDA는 토픽의 제목을 정해주지 않지만, 이 시점에서 알고리즘의 사용자는 위 결과로부터 두 토픽이 각각 과일에 대한 토픽과 강아지에 대한 토픽이라고 판단해볼 수 있다.
+LDA is Topic of The title Don't decide But , this At this point The algorithm The user stomach From the results two The topic is Each In fruit About Korea Topic and To the puppy About Korea It's a topic Let's judge number there is .
 
 #### References
 
 - [Topic Modeling, LDA - ratsgo's blog](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/06/01/LDA/)
-- [[기술면접] 잠재디리클레할당 (day3 / 201012) - huidea](https://huidea.tistory.com/130?category=879541)
-- [딥 러닝을 이용한 자연어 처리 입문](https://wikidocs.net/30708)
+- [[ Technical Interview ] Potential Direcly Allocation (day3 / 201012) - huidea](https://huidea.tistory.com/130?category=879541)
+- [ Deep Running Used Natural language treatment Introduction ](https://wikidocs.net/30708)
 
 ---
 
 ## #10
 
-#### SVM은 왜 반대로 차원을 확장시키는 방식으로 동작할까요? SVM은 왜 좋을까요?
+#### SVM is why on the other way Dimension Expanding In a way Will it work ? SVM why Is it okay ?
 
-SVM(Support Vector Machine)은 데이터가 사상된 공간에서 **경계로 표현**되며, 공간상에 존재하는 **여러 경계 중 가장 큰 폭을 가진 경계를 찾는다.**
+SVM (Support Vector Machine) is The data is Thoughtful ** Border in space ** is expressed , and in space ** There are several boundary middle most big Width Have The border Find .**
 
 ![SVM](./img/2-machine-learning/svm.png)
 
-- $B_1$: 결정 경계
+- $B_1$: Decision boundary
 - $b_{11}$: plus-plane
 - $b_{12}$: minus-plane
 
-SVM의 장단점은 다음과 같다.
+SVM 's The pros and cons are Next It's the same .
 
-| 장점                                              | 단점                                                                  |
+| Pros | Cons |
 | ------------------------------------------------- | --------------------------------------------------------------------- |
-| 분류와 회귀에 모두 사용할 수 있다.                | 데이터 전처리와 매개변수 설정에 따라 정확도가 달라질 수 있다.         |
-| 신경망 기법에 비해 과적합 정도가 낮다.            | 예측이 어떻게 이루어지는지에 대한 이해와 모델에 대한 해석이 어렵다.   |
-| 예측의 정확도가 높다.                             | 대용량 데이터에 대한 모델 구축 시 속도가 느리며,메모리 할당량이 크다. |
-| 저차원과 고차원 데이터에 대해서 모두 잘 작동한다. |                                                                       |
+| Classification and In regression every To use number There is . | Data Preprocessing and Parameters In settings according to Accuracy Will change number There is . |
+| Neural network In technique Compare Overfitting The extent Low . | Forecast how Whether it will happen About Korea Understanding and In the model About Korea Interpretation It's difficult . |
+| Prediction of Accuracy high . | large capacity In the data About Korea model Build city The speed Slow , memory The quota is It's big . |
+| Low-dimensional and Higher dimension In the data About every well It works . | |
 
-> **마진(Margin)**
+> ** Margin **
 
-마진(Margin)은 plus-plane과 minus-plane 사이의 거리를 의미하며, **최적의 결정 경계는 마진을 최대화**한다.
+Margin is the space between plus-plane and minus-plane. The distance It means ** optimal decision The border is The margin Maximize ** .
 
-SVM은 선형 분류뿐만 아니라 **비선형 분류**에도 사용되는데, 비선형 분류에서는 입력자료를 다차원 공간상으로 맵핑할 때 <strong>커널 트릭(kernel trick)</strong>을 사용하기도 한다. 원공간(Input Space)의 데이터를 선형분류가 가능한 고차원 공간(Feature Space)으로 매핑한 뒤 두 범주를 분류하는 초평면을 찾는다. (Kernel-SVM)
+SVM is Linear Just classification Not ** nonlinear Also in category ** It is used , nonlinear In the classification Input data Multidimensional Spatially To map When <strong> kernel <strong> Trick (kernel trick)</strong> Also use . The original space (Input Space ) The data Linear classification possible Higher dimension To Space (Feature Space) Mapped back two Category Classifying Superplane Find . (Kernel-SVM)
 
 ![](./img/2-machine-learning/input-space-and-feature-space.png)
 
 ![](./img/2-machine-learning/kernel-svm.png)
 
-> **커널 트릭(Kernel Trick)**
+> ** Kernel Trick (Kernel Trick)**
 
-커널 함수를 이용하여 **차원 공간(low dimensional space)을 고차원 공간(high dimensional space)으로 매핑해주는 작업**을 커널트릭이라 한다.
+Kernel The function Using ** dimensions space (low dimensional space ) Higher dimension Into space (high dimensional space) Mapping it Work ** It's a kernel trick Do it .
 
-커널 함수의 종류는 다음과 같다.
+Kernel Function of The type is Next It's the same .
 
-![커널 함수의 종류](./img/2-machine-learning/kernel-function.png)
+![ Kernel Function of Type ](./img/2-machine-learning/kernel-function.png)
 
 #### References
 
-- [서포트 벡터 머신 (Support Vector Machine) - ratsgo's blog](https://ratsgo.github.io/machine%20learning/2017/05/23/SVM/)
+- [ Support vector Machine (Support Vector Machine) - ratsgo's blog](https://ratsgo.github.io/machine%20learning/2017/05/23/SVM/)
 - [Kernel-SVM - ratsgo's blog](https://ratsgo.github.io/machine%20learning/2017/05/30/SVM3/)
-- [Support Vector Machine (SVM)의 개념 - butter_shower](https://butter-shower.tistory.com/7)
-- [Support Vector Machine (SVM, 서포트 벡터 머신) - Excelsior-JH](https://excelsior-cjh.tistory.com/66)
-- [서포트 벡터 머신(Support Vector Machine) 쉽게 이해하기 - 아무튼 워라벨](http://hleecaster.com/ml-svm-concept/)
-- [ADP 필기 올패키지 데이터 분석 전문가](https://search.shopping.naver.com/search/all?where=all&frm=NVSCTAB&query=ADP+%ED%95%84%EA%B8%B0+%EC%98%AC%ED%8C%A8%ED%82%A4%EC%A7%80+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D+%EC%A0%84%EB%AC%B8%EA%B0%80)
+- [Support Vector Machine (SVM) ] Concept - butter_shower](https://butter-shower.tistory.com/7)
+- [Support Vector Machine (SVM, Support vector Machine ) - Excelsior-JH](https://excelsior-cjh.tistory.com/66)
+- [ Support vector Machine (Support Vector Machine) Easy Understand - Anyway Warabel ](http://hleecaster.com/ml-svm-concept/)
+- [ADP handwriting All Package data analyze Expert ](https://search.shopping.naver.com/search/all?where=all&frm=NVSCTAB&query=ADP+%ED%95%84%EA%B8%B0+%EC%98%AC%ED%8C%A8%ED%82%A4%EC%A7%80+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D+%EC%A0%84%EB%AC%B8%EA%B0%80)
 
 ---
 
 ## #11
 
-#### 다른 좋은 머신 러닝 대비, 오래된 기법인 나이브 베이즈(naive bayes)의 장점을 옹호해보세요.
+#### different good Machine Running Contrast , old Technique Naive Bayes (naive bayes ) Advantages Try to defend it .
 
-데이터에서 변수들에 대한 **조건부 독립을 가정**하는 알고리즘으로 클래스에 대한 사전 정보와 데이터로부터 추출된 정보를 결합하고, <strong>베이즈 정리(Bayes Theorem)</strong>를 이용하여 어떤 데이터가 특정 클래스에 속하는지 분류하는 알고리즘이다.
+In the data In variables ** Conditional for Korea Independence Assuming ** By algorithm In class About Korea dictionary Information and From data Extracted Information Combined , <strong> Bayes <strong> Bayes Theorem </strong> By using which The data is specific In class Belonging or not Classifying It's an algorithm .
 
-나이브 베이즈의 장단점은 다음과 같다.
+Naive Bayes's The pros and cons are Next It's the same .
 
-| 장점                                                                       | 단점                                                                   |
+| Pros | Cons |
 | -------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| 단순하고 빠르며 매우 효과적이다                                            | 모든 속성은 동등하게 중요하고 독립적이라는 알려진 결함 가정에 의존한다 |
-| 노이즈와 결측 데이터가 있어도 잘 수행한다                                  | 수치 속성으로 구성된 많은 데이터셋에 대해 이상적이지 않다              |
-| 훈련에 대한 상대적으로 적은 예제가 필요하지만 매우 많은 예제도 잘 수행한다 | 추정된 확률은 예측된 범주보다 덜 신뢰적이다                            |
-| 예측에 대한 추정된 확률을 얻기 쉽다                                        |                                                                        |
+| Simple and Fast and very effective | all The property is Equally It's important Independent known defect At home depend on |
+| Noise and Missing The data is Even if there is well perform | figure By property Composed of many In the dataset about Not ideal No |
+| In training About Korea Relatively small An example But I need it very many Example too well perform | estimated The probability is As predicted Than category Less Trustworthy |
+| In the prediction About Korea Estimated The probability Get Easy | |
 
 #### References
 
-- [쉽고 강력한 머신러닝, 나이브 베이즈 분류 (Naive Bayes Classification)- 자비스가 필요해](https://needjarvis.tistory.com/621)
-- [나이브 베이즈 알고리즘의 장점과 단점 - 웹개발공작소](http://w3devlabs.net/wp/?p=17273)
-- [ADP 필기 올패키지 데이터 분석 전문가](https://search.shopping.naver.com/search/all?where=all&frm=NVSCTAB&query=ADP+%ED%95%84%EA%B8%B0+%EC%98%AC%ED%8C%A8%ED%82%A4%EC%A7%80+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D+%EC%A0%84%EB%AC%B8%EA%B0%80)
+- [ Easy forcible Machine learning , naive Bayes Classification (Naive Bayes Classification)- Jarvis I need it ](https://needjarvis.tistory.com/621)
+- [ Naive Bayes The algorithm Advantages and Cons - Web Development Lab ](http://w3devlabs.net/wp/?p=17273)
+- [ADP handwriting All Package data analyze Expert ](https://search.shopping.naver.com/search/all?where=all&frm=NVSCTAB&query=ADP+%ED%95%84%EA%B8%B0+%EC%98%AC%ED%8C%A8%ED%82%A4%EC%A7%80+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D+%EC%A0%84%EB%AC%B8%EA%B0%80)
 
 ---
 
 ## #12
 
-#### 회귀 / 분류시 알맞은 metric은 무엇일까?
+#### Regression / Classification The appropriate metric is What could it be ?
 
-[#1](#1) 답변을 참고해주세요. 해당 답변에서 서술하지 않은 지표만 추가로 설명합니다.
+[#1](#1) Reply Please note that In the answer Don't describe Not Only indicators Additionally Explains .
 
-> **회귀**
+> ** Regression **
 
 $$
 R^2 = \frac{\sum (\hat{y}_l - \bar{y})}{\sum (y_i - \bar{y})^2}
 $$
 
-결정계수(Coefficient of determination)는 (회귀선에 의해 설명되는 변동)/(전체 변동)을 말하며, 독립변수의 개수가 많아질수록 결정계수가 1에 가까워진다. 회귀모형이 높은 결정계수를 갖는다면 실제로 모형이 설명력이 높은 것인지 단순히 독립변수의 개수가 많은 것인지 알기 어려워 결정계수를 신뢰할 수 없게 되는 문제가 발생한다.
+The coefficient of determination is ( the coefficient of determination on the regression line ) By Explained change )/( total ) change Speaking of the independent variable The number of The more it increases The coefficient of determination is 1 It gets closer . The regression model high The coefficient of determination If you have it actually The model Explanatory power high Whether it is Simply Independent variable The number of many Whether it is Know It's difficult The coefficient of determination Trustworthy number No felled The problem is It happens .
 
 $$
 adj R^2 = 1 - \frac{n - 1}{(n - p - 1)(1 - R^2)}
 $$
 
-수정된 결정계수는 결정계수의 문제를 해결하기 위해 표본의 크기(n)와 독립변수의 수(p)를 고려하여 수정된 결정계수를 계산한다.
+Modified The coefficient of determination is Coefficient of determination The problem Solve for Of the sample size (n) and Independent variable Number (p ) Taking into consideration Modified The coefficient of determination Calculate .
 
-> **분류**
+> ** Category **
 
 $$ - (y - \log (p))) + (1 - y) \log (1-p) $$
 
-Log Loss 혹은 Binary Crossentropy는 이진 분류에서의 지표로 사용된다.
+Log Loss or Binary Crossentropy Binary In the classification As an indicator is used .
 
 $$
 LogarithmicLoss = - \frac{1}{N} \sum^N_{i=1} \sum^M_{j=1} y_{ij} * \log (p_{ij})
 $$
 
-Categorical Crossentropy는 분류해야할 클래스가 3개 이상인 멀티 클래스 분류에서의 지표로 사용된다.
+Categorical Crossentropy is Need to classify There are 3 classes Strange person Multi class In the classification As an indicator is used .
 
 #### References
 
@@ -407,76 +401,76 @@ Categorical Crossentropy는 분류해야할 클래스가 3개 이상인 멀티 �
 
 ## #13
 
-#### Association Rule의 Support, Confidence, Lift에 대해 설명해주세요.
+#### Association Rule Support , Confidence, Lift about Please explain .
 
-연관규칙분석(Association Analysis)은 흔히 장바구니 분석(Market Basket Analysis) 또는 서열분석(Sequence Analysis)이라고 불린다. 기업의 데이터베이스에서 상품의 구매, 서비스 등 **일련의 거래 또는 사건들 간의 규칙을 발견하기 위해 적용**하며, 연관성 분석의 평가 지표로는 Support, Confidence, Lift를 사용한다.
+Association Analysis is profusely Shopping Cart Analysis (Market Basket Analysis) or It's called sequence analysis . It is called . The company's In the database Of the product Purchase , Service ** A series of transaction or Events Between The rules Discover for ** Apply and Relevance Analysis of evaluation The indicators are Support, Confidence, and Lift . Use .
 
-> **Support(지지도)**
+> ** Support **
 
-전체 거래 중 항목 A와 항목 B를 동시에 포함하는 거래의 비율로 정의한다.
-
-$$
-지지도 = P(A \cap B) = \frac{A와 B가 동시에 포함된 거래수}{전체 거래수} = \frac{A \cap B}{전체}
-$$
-
-> **Confidence(신뢰도)**
-
-항목 A를 포함한 거래 중에서 항목 A와 항목 B가 같이 포함될 확률이다. 연관성의 정도를 파악할 수 있다.
+entire transaction middle Item A and Item B at the same time Including of the transaction By ratio Define .
 
 $$
-신뢰도 = \frac{P(A \cap B)}{P(A)} = \frac{A와 B가 동시에 포함된 거래수}{A를 포함하는 거래수} = \frac{지지도}{P(A)}
+Support = P(A \cap B) = \frac{ A and B at the same time Included Number of transactions }{ Total {Transactions } = \frac{A \cap B}{ Total }
 $$
 
-> **Lift(향상도)**
+> ** Confidence **
 
-A가 구매되지 않았을 때 품목 B의 구매확률에 비해 A가 구매됐을 때 품목 B의 구매확률의 증가 비이다. 연관규칙 A→B는 품목 A와 품목 B의 구매가 서로 관련이 없는 경우에 향상도가 1이 된다.
+Item A inclusive transaction between Item A and Item B together To be included It's probability . It's correlation. The degree Understand number there is .
 
 $$
-향상도 = \frac{P(B | A)}{P(B)} = \frac{P(A \cap B)}{P(A)P(B)} = \frac{A와 B가 동시에 포함된 거래수}{A를 포함하는 거래수 \times B를 포함하는 거래수} = \frac{신뢰도}{P(B)}
+Confidence = \frac{P(A \cap B)}{P(A)} = \frac{ A and B at the same time Included Transaction number }{ A Including {number of transactions } = \frac{ support }{P(A)}
+$$
+
+> **Lift( Improvement )**
+
+A Not purchased Didn't at the time Item B Purchase probability Compared to A It was purchased at the time Item B Purchase probability increase It is raining . The association rule A→B is Item A and Item B Purchase price each other Related to no In case The improvement is 1 It can be done .
+
+$$
+Improvement = \frac{P(B | A)}{P(B)} = \frac{P(A \cap B)}{P(A)P(B)} = \frac{A and B are at the same time Included Transaction number }{ A Including The number of transactions \times B Including {number of transactions } = \frac{ confidence }{P(B)}
 $$
 
 ---
 
-에를 들어 어떤 슈퍼마켓에서 5명의 고객에 의해 발생된 5($N = 5$)건의 거래를 가지고, 연관규칙 X:{계란, 맥주} → Y:{기저귀}에 대해 살펴보자.
+Er Come in which 5 people in the supermarket To the customer By 5 ($N = 5$) cases occurred Make a deal With the association rule X:{ eggs , beer } → Y: { diapers } about Let's take a look .
 
-| Customer<br>ID | Transaction<br>ID |                 Items                  |
-| :------------: | :---------------: | :------------------------------------: |
-|      1131      |       no.1        |               계란, 우유               |
-|      2094      |       no.2        |    <U>계란, 기저귀, 맥주</U>, 사과     |
-|      4122      |       no.3        |        우유, 기저귀, 맥주, 콜라        |
-|      4811      |       no.4        | <U>계란</U>, 우유, <U>맥주, 기저귀</U> |
-|      8091      |       no.5        |         계란, 우유, 맥주, 콜라         |
+| Customer<br>ID | Transaction<br>ID | Items |
+| :------------: | :------------------: | :------------------------------------: |
+| 1131 | no.1 | Eggs , Milk |
+| 2094 | no.2 | <U> Eggs , Diapers , Beer </U>, Apples |
+| 4122 | no.3 | Milk , diapers , beer , cola |
+| 4811 | no.4 | <U> Eggs </U>, milk , <U> Beer , diapers </U> |
+| 8091 | no.5 | Eggs , milk , beer , cola |
 
 $$ P(Y) = \frac{n(Y)}{N} = \frac{n \\{ no.2, no.3, no.4 \\} }{N} = \frac{3}{5} = 0.6 $$
 
-- 지지도(Support) = $s(X→Y) = \frac{n(X\cup Y)}{N} = \frac{n \\{ no.2, no.4 \\} }{N} = \frac{2}{5} = 0.4$
-- 신뢰도(Confidence) = $c(X→Y) = \frac{n(X\cup Y)}{n(X)} = \frac{n \\{ no.2, no.4 \\} }{n \\{ no.2, no.4, no.5 \\} } = \frac{2}{3} = 0.6667$
-- 향상도(Lift) = $Lift(X→Y) = \frac{c(X→Y)}{s(Y)} = \frac{0.6667}{0.6} = 1.1111$
+- Support = $s(X→Y) = \frac{n(X\cup Y)}{N} = \frac{n \\{ no.2, no.4 \\} }{N} = \frac{2}{5} = 0.4$
+- Confidence = $c(X→Y) = \frac{n(X\cup Y)}{n(X)} = \frac{n \\{ no.2, no.4 \\} }{n \\{ no.2, no.4, no.5 \\} } = \frac{2}{3} = 0.6667$
+- Improvement (Lift) = $Lift(X→Y) = \frac{c(X→Y)}{s(Y)} = \frac{0.6667}{0.6} = 1.1111$
 
 #### References
 
-- [[R 연관규칙(Association Rule)] 지지도(support), 신뢰도(confidence), 향상도(lift), IS측도, 교차지지도 - R, Python 분석과 프로그래밍의 친구 (by R Friend)](https://rfriend.tistory.com/191)
-- [ADP 필기 올패키지 데이터 분석 전문가](https://search.shopping.naver.com/search/all?where=all&frm=NVSCTAB&query=ADP+%ED%95%84%EA%B8%B0+%EC%98%AC%ED%8C%A8%ED%82%A4%EC%A7%80+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D+%EC%A0%84%EB%AC%B8%EA%B0%80)
+- [[R Association Rule ] Support , confidence , lift , IS measure , cross-support - R, Python analysis and of programming Friend (by R Friend)](https://rfriend.tistory.com/191)
+- [ADP handwriting All Package data analyze Expert ](https://search.shopping.naver.com/search/all?where=all&frm=NVSCTAB&query=ADP+%ED%95%84%EA%B8%B0+%EC%98%AC%ED%8C%A8%ED%82%A4%EC%A7%80+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D+%EC%A0%84%EB%AC%B8%EA%B0%80)
 
 ---
 
 ## #14
 
-#### 최적화 기법중 Newton’s Method와 Gradient Descent 방법에 대해 알고 있나요?
+#### Optimization Among the techniques, Newton's Method and Gradient Descent Method about I know Do you have it ?
 
 > **Newton's Method**
 
-함수 $f$의 2차 테일러 근사(quadratic approximation)은 다음과 같다.
+The second order of the function $f$ Taylor Approximation (quadratic approximation) is Next It's the same .
 
 $$
-f(y)\approx f(x)+\nabla f(x)^T(y-x)+\frac{1}{2}(y-x)^T\nabla^2f(x)(y-x),
+f(y)\approx f(x)+\nabla f(x)^T(yx)+\frac{1}{2}(yx)^T\nabla^2f(x)(yx),
 \\
-f_{approx}(y)=f(x)+\nabla f(x)^T(y-x)+\frac{1}{2}(y-x)^T\nabla^2f(x)(y-x)
+f_{approx}(y)=f(x)+\nabla f(x)^T(yx)+\frac{1}{2}(yx)^T\nabla^2f(x)(yx)
 $$
 
-여기서 $y$는 다음 스텝의 $x$ 값인 $x^+$이다. 또한 quadratic approximation을 $f_{approx}$로 정한다.
+Here, $y$ is next The $x$ value of the step is $x^+$ . Also, the quadratic approximation is $f_{approx}$ . Decide .
 
-이 $f_{approx}$ 즉, quadratic approximation을 최소로 만드는 입력 $y$를 찾으려 한다. 이때 $f_{approx}$는 convex이므로 위 식의 gradient를 0으로 만드는 입력 $y$가 $f_{approx}$를 최소로 만들 것이다. 이 결과가 Newton’s method에서의 step update 식이 된다. 아래 식의 미분은 $y$에 대한 미분 임을 기억하자.
+This $f_{approx}$ i.e. quadratic approximation At least fabricated Input $y $ To find . At this time, $ f_{approx}$ is convex , so stomach The gradient of the equation is 0 fabricated Input $y$ is $f_{approx} $ At least Make It is . This The result is the step update equation in Newton's method. It is possible . Below Food Differentiation is in $y$ About Korea differential It is Let's remember .
 
 $$
 \nabla f_{approx}(y)=\nabla f(x)+\frac{1}{2}\left((\nabla^2f(x))^T(y-x)+(y-x)^T\nabla^2f(x)\right)
@@ -490,189 +484,189 @@ $$
 
 > **Gradient Descent**
 
-Gradient descent에서는 함수 $f$의 2차 테일러 근사항을 사용하고, 2차 항의 경우 실제 2차 미분 결과가 아닌, 정방행렬(identity matrix)과 이를 $t$로 나눈 값으로 가정한다.
+In gradient descent The second order of the function $f$ Taylor The details Use , 2nd protest case Actual 2nd differential The result No , square matrix (identity matrix) and Let's call this $t$ Divided By value Assume .
 
 $$
-f(y)\approx f(x)+\nabla f(x)^T(y-x)+\frac{1}{2t}\parallel y-x\parallel^2_2,
+f(y)\approx f(x)+\nabla f(x)^T(yx)+\frac{1}{2t}\parallel yx\parallel^2_2,
 \\
-f_{approx}(y)=f(x)+\nabla f(x)^T(y-x)+\frac{1}{2t}\parallel y-x\parallel^2_2
+f_{approx}(y)=f(x)+\nabla f(x)^T(yx)+\frac{1}{2t}\parallel yx\parallel^2_2
 $$
 
-Newton’s method와 동일하게 위 근사식의 gradient가 0인 $y$ 값, 즉 $x^+$를 정할 수 있다.
+Newton's method and Same as stomach The value of $y$ for which the gradient of the approximation is 0 , i.e. $x^+ $ To decide number there is .
 
 $$
-\nabla f(y)=\nabla f(x)+\frac{1}{t}(y-x),
+\nabla f(y)=\nabla f(x)+\frac{1}{t}(yx),
 \\
 =0,\qquad\qquad\;
 \\
-\Leftrightarrow y=x-t\nabla f(x)
+\Leftrightarrow y=xt\nabla f(x)
 $$
 
-> **Newton's method**와 **Gradient descent**의 step에 따른 수렴 방향 비교
+In the steps of **Newton's method** and **Gradient descent** Followed convergence direction comparison
 
 <img src="https://convex-optimization-for-all.github.io/img/chapter_img/chapter14/gd.jpeg">
 
-- 파랑: Newton's method
-- 검정: Gradient descent
+- Blue : Newton's method
+- Black : Gradient descent
 
-Gradient descent는 2차 미분항을 정방행렬에 상수가 곱해진 값으로 가정하고 gradient를 계산하기 때문에, 등고선(contour)의 접선 방향에 수직하게(perpendicular) 수렴함을 확인할 수 있고, Newton’s method에 비해 느린 수렴 속도를 보인다.
+Gradient descent is quadratic Differential term In a square matrix Constant Multiplied By value Assuming gradient Calculate Because of the contour lines tangent In the direction Converging vertically (perpendicular) To check number There is , and in Newton's method Compare slow convergence Speed up It is visible .
 
 #### References
 
-- [14-01-01 Newton's method interpretation - 모두를 위한 컨벡스 최적화](https://convex-optimization-for-all.github.io/contents/chapter14/2021/03/26/14_01_01_newton_method_interpretation/)
-- [뉴턴법/뉴턴-랩슨법의 이해와 활용(Newton's method) - 다크 프로그래머](https://darkpgmr.tistory.com/58)
-- [Gradient Descent 탐색 방법 - 다크 프로그래머](https://darkpgmr.tistory.com/133)
-- [4주차\_#2. 최적화 기법중 Newton's Method와 Gradient Descent 방법을 설명하세요. - 내가 보려고 만든 공간](https://astralworld58.tistory.com/86)
+- [14-01-01 Newton's method interpretation - All For Convex Optimization ](https://convex-optimization-for-all.github.io/contents/chapter14/2021/03/26/14_01_01_newton_method_interpretation/)
+- [ Newton's law / Newton - Raphson law Understanding and Utilization (Newton's method) - Dark Programmer ](https://darkpgmr.tistory.com/58)
+- [Gradient Descent Exploration Method - Dark Programmer ](https://darkpgmr.tistory.com/133)
+- [ Week 4 \_#2. Optimization Among the techniques, Newton's Method and Gradient Descent Method are used. Explain . - I To see made Space ](https://astralworld58.tistory.com/86)
 
 ---
 
 ## #15
 
-#### 머신러닝(machine)적 접근방법과 통계(statistics)적 접근방법의 둘간에 차이에 대한 견해가 있나요?
+#### Machine learning ( machine) Approach and Statistics (statistics ) The approach Between the two In the difference About Korea The view is Do you have it ?
 
-머신러닝적 접근방법과 통계적 접근방법의 차이는 두 방법의 주 목적이 다르다는 것이다.
+Machine learning Approach and Statistical The approach The difference is two Method of main The purpose is It's different It is .
 
-머신러닝적 접근방법은 모델의 **예측 성공률**을 높이는게 목적이다.  
-따라서 모델의 신뢰도나 정교한 가정보다는 다양한 피쳐를 사용하여 (오버피팅을 감안하더라도) 높은 예측률을 달성하고자 한다.
+Machine learning The approach is ** Prediction of the model Success rate ** Height is The purpose is .
+thus Model's Reliability or elaborate than home various Feature Using ( overfitting) Even taking into account ) high Prediction rate To achieve Do it .
 
-통계적 접근방법은 분포와 가정을 통해 **신뢰 가능하고 정교한** 모델을 만드는게 목적이다.
+Statistical The approach is Distribution and Home ** Trust through It is possible A sophisticated ** model Making it The purpose is .
 
-따라서 모형을 복잡하지 않고 단순하게 만들고, 어떤 피쳐가 어떤 원인을 주는지 알 수 있도록 한다.
+thus The model Not complicated Not Simply Make and what The feature which The cause Give it to me egg number To be able to Do it .
 
 #### References
 
-- [머신러닝과 전통적 통계학의 차이 - Hyunseok Choi](https://medium.com/@hyunseok/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EA%B3%BC-%EC%A0%84%ED%86%B5%EC%A0%81-%ED%86%B5%EA%B3%84%ED%95%99%EC%9D%98-%EC%B0%A8%EC%9D%B4-a560f0708db0)
-- [Machine Learning과 전통적 통계분석 방법의 차이](https://ek-koh.github.io/data%20analysis/ML-diff/)
+- [ Machine learning and Traditional Statistics Difference - Hyunseok Choi](https://medium.com/@hyunseok/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EA%B3%BC-%EC%A0%8 4%ED%86%B5%EC%A0%81-%ED%86%B5%EA%B3%84%ED%95%99%EC%9D%98-%EC%B0%A8%EC%9D%B4-a560f0708db0)
+- [Machine Learning and Traditional Statistical analysis Method of Difference ](https://ek-koh.github.io/data%20analysis/ML-diff/)
 
 ---
 
 ## #16
 
-#### 인공신경망(deep learning이전의 전통적인)이 가지는 일반적인 문제점은 무엇일까요?
+#### Artificial neural network ( before deep learning) Traditional ) Eggplant general The problem is What could it be ?
 
-딥러닝 이전의 인공신경망은 선형적으로만 회귀, 분류를 수행하기 때문에 레이어를 깊게 쌓지 못했고, 때문에 XOR 문제 같은 복잡한 문제를 풀지 못하는 문제점이 있었다.
+Deep Learning Previous Artificial neural networks Linearly only Regression , classification To perform because Layer deep Stack Couldn't do it , because of XOR problem same complicated The problem Solve Can't do it The problem is There was .
 
-![XOR 문제](./img/2-machine-learning/xor.png)
+![XOR problem ](./img/2-machine-learning/xor.png)
 
-하지만 시그모이드와 같은 비선형 함수를 선형 모델에 추가하여 XOR 문제를 해결하고, 편미분 체인룰을 사용한 오차역전파 방법으로 모델을 업데이트할 수 있게 되면서 레이어를 깊게 쌓은 딥러닝 인공신경망이 발전하였다.
+but Sigmoid and same Nonlinear The function Linear In the model Adding XOR problem Solve and differentiate Chain rule Used Backpropagation of error By way of The model To update number Have As it becomes Layer deep Stacked Deep Learning Artificial neural network Developed .
 
 #### References
 
-- [1.2 딥러닝 이전: 머신 러닝의 간략한 역사 - 텐서 플로우 블로그](https://tensorflow.blog/%EC%BC%80%EB%9D%BC%EC%8A%A4-%EB%94%A5%EB%9F%AC%EB%8B%9D/1-2-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%9D%B4%EC%A0%84-%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D%EC%9D%98-%EA%B0%84%EB%9E%B5%ED%95%9C-%EC%97%AD%EC%82%AC/)
-- [모두를 위한 딥러닝 - Sung Kim](https://www.youtube.com/watch?v=n7DNueHGkqE&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&index=22)
+- [1.2 Deep Learning Previous : Machine Running's curt History - Tensor Flow Blog ](https://tensorflow.blog/%EC%BC%80%EB%9D%BC%EC%8A%A4-%EB%94%A5%EB%9F%AC%EB%8B%9D/1-2-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%9D%B4%EC%A0%84-%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D%EC%9D%98-%EA%B0%84%EB%9E%B5%ED%95%9C-%EC%97%AD%EC%82%AC/)
+- [ Everyone For Deep Learning - Sung Kim](https://www.youtube.com/watch?v=n7DNueHGkqE&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&index=22)
 
 ---
 
 ## #17
 
-#### 지금 나오고 있는 deep learning 계열의 혁신의 근간은 무엇이라고 생각하시나요?
+#### now Come out In the deep learning series Innovation of The basis is What is it What do you think ?
 
-ImageNet 과 같은 **거대하고 높은 품질의 데이터셋**이 모두에게 공개되면서 딥러닝의 혁신적인 발전이 시작될 수 있었다. 현재는 더 다양한 태스크에 적합한 좋은 GLUE 같은 데이터들도 공개되어 더욱 딥러닝의 발전에 이바지하고 있다.
+ImageNet and Same ** huge high Quality of Dataset ** This To everyone As it was revealed Deep learning innovatory Development to start number There was . Now more various In the task good Good GLUE like Data too It's been made public more Deep learning In development Contribute there is .
 
-현재 좋은 성능을 내는 딥러닝 모델들은 모두 큰 규모의 모델들인데 **하드웨어의 발전**이 이를 가능하게 하였다.
+today good Performance smoking Deep Learning The models are every big Of scale These are models of ** hardware Development ** This Possibly Did .
 
-또한 **end-to-end 모델**이 나타나면서 데이터 레이블링, 하이퍼파라미터 찾기, 최적 모델 찾기 등 모든 작업을 기계에게 맡기면서 딥러닝이 크게 발전하였다.
+Also **end-to- end model ** As it appears data Labeling , Hyperparameters Find , Optimal model Find etc. every Work To the machine While leaving it to you Deep learning big Developed .
 
 #### References
 
-- [end-to-end 학습의 장단점 - 생각많은 소심남](https://talkingaboutme.tistory.com/entry/MLY-end-to-end-%ED%95%99%EC%8A%B5%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90)
+- [end-to-end learning Pros and Cons - Thinking a lot Timid Man ](https://talkingaboutme.tistory.com/entry/MLY-end-to-end-%ED%95%99%EC%8A%B5%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90)
 
 ---
 
 ## #18
 
-#### ROC 커브에 대해 설명해주실 수 있으신가요?
+#### On the ROC curve about Please explain number Do you have it ?
 
-ROC 커브는 **이진분류 모델의 성능**을 나타내는 지표이다.
+ROC curve is ** binary classification Model's Performance ** representative It is an indicator .
 
-모델이 참이라고 예측하는 경우는 **FPR** (False Positive Rate, 실제 값이 거짓일 때) 과 **TPR** (True Positive Rate, 실제 값이 참일 때) 두 경우로 나뉜다.  
-FPR 과 TPR 을 그래프에서 x 축, y 축으로 동시에 표현한 ROC 커브를 통해 모델이 얼마나 옳은 값을 잘 예측하는지 알 수 있게 된다.
+The model It's true Predicting The case is **FPR** (False Positive Rate, real The value It's a lie time ) and **TPR** (True Positive Rate, actual The value True When ) two In case It is divided .
+FPR and TPR On the graph, the x- axis and y- axis at the same time The ROC curve expressed Through The model how much correct The value well Predicting egg number Have It can be done .
 
-![ROC 커브](./img/2-machine-learning/roc.png)
+![ROC curve ](./img/2-machine-learning/roc.png)
 
-ROC 커브가 좌상단과 가까운 경우 좋은 모델이라고 판단할 수 있다. 모델이 FPR 은 낮게, TPR 은 높게 예측하기 때문이다.
+The ROC curve Top left and near case good As a model To judge number There is a model called FPR . Low , TPR is High Predict Because .
 
 #### References
 
-- [ROC curve - 공돌이의 수학 정리 노트](https://angeloyeo.github.io/2020/08/05/ROC.html)
+- [ROC curve - Gongdol's math organize Note ](https://angeloyeo.github.io/2020/08/05/ROC.html)
 
 ---
 
 ## #19
 
-#### 여러분이 서버를 100대 가지고 있습니다. 이때 인공신경망보다 Random Forest를 써야하는 이유는 뭘까요?
+#### You guys 100 servers have There is . At this time Random Forest is better than artificial neural network Have to write The reason is What is it ?
 
-**랜덤 포레스트**는 여러 결정 트리를 앙상블하여 하나의 모델로 구성하는 방법이다. 랜덤 포레스트에서는 각 서버를 모델의 특성을 이해하는 단일 결정 트리 (Decision tree) 로 **병렬**적이게 구성할 수 있다.
+** Random Forest ** is several decision The tree In an ensemble One As a model Composing It's a method . Random In the forest each The server Model's Characteristics Understand single decision ** Parallel ** with a tree (Decision tree) to configure number there is .
 
-반면, **인공신경망**은 하나의 서버 자체가 모델의 특성을 모두 이해하는 end-to-end 구조로 **직렬**적이게 구성된다.
+On the other hand , ** artificial neural networks ** One Server Itself Model's Characteristics every ** Serial ** in an end-to-end structure that makes sense It consists of .
 
-따라서 서버가 100대 있을 때는, 이를 병렬적으로 활용할 수 있는 **랜덤 포레스트**를 사용한다.
+thus 100 servers There will be When , this In parallel To utilize number ** Random Forest ** Use .
 
 #### References
 
-- [Random Forest(랜덤 포레스트) 개념 정리 - Codesigner's Dev Story](https://eunsukimme.github.io/ml/2019/11/26/Random-Forest/)
-- [의사결정나무 - ratsgo's blog](https://ratsgo.github.io/machine%20learning/2017/03/26/tree/)
-- [출근 루틴, 하루 3문제 - Man-About-Town](https://yongwookha.github.io/MachineLearning/2021-01-29-interview-question)
+- [Random Forest ( Random Forest ) concept Summary - Codesigner's Dev Story](https://eunsukimme.github.io/ml/2019/11/26/Random-Forest/)
+- [ Decision tree - ratsgo's blog](https://ratsgo.github.io/machine%20learning/2017/03/26/tree/)
+- [ go to work Routine , 3 questions a day - Man-About-Town](https://yongwookha.github.io/MachineLearning/2021-01-29-interview-question)
 
 ---
 
 ## #20
 
-#### K-means의 대표적 의미론적 단점은 무엇인가요? (계산량 많다는것 말고)
+#### K- means Representative Semantic The downside is What is it ? ( Calculation amount There are many (not to mention )
 
-K-means 는 특성이 비슷한 데이터를 같은 그룹으로 묶어주는 클러스터링 알고리즘으로, k 개의 군집 개수를 정하고 군집의 중심점을 예측하여 각 데이터와 거리를 비교한 후 군집을 결정한다.
+K-means is The characteristic similar The data same In a group Tying it up Clustering Algorithmically , there are k association The number of Decide Cluster of The center point By prediction each With data The distance Compared to after Cluster Decide .
 
-**K-means 알고리즘의 단점**은 다음과 같다.
+**K-means algorithm The disadvantages are ** Next It's the same .
 
-- K 를 몇 개로 설정하냐에 따라 성능이 달라진다.
-- K 개 군집의 중심점을 예측하여야 하는데, 어디를 중심점으로 두냐에 따라 성능이 달라진다.
-- 데이터가 잘 모여있는 경우에 효과적이지, 노이즈가 많은 경우 효과적이지 않다.
+- K some Dog Whether to set it or not according to Performance It changes .
+- K dog Cluster of The center point Must predict But where As a central point In two days according to Performance It changes .
+- The data well Gathered In case Not effective , noisy many case Not effective No .
 
 #### References
 
-- [머신러닝 - 7. K-평균 클러스터링(K-means Clustering) - 귀퉁이 서재](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-7-K-%ED%8F%89%EA%B7%A0-%EA%B5%B0%EC%A7%91%ED%99%94-K-means-Clustering)
+- [ Machine Learning - 7. K- Mean Clustering (K-means Clustering) - Corners Study ](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-7-K-%ED%8F%89%EA%B7%A0-%EA%B5%B0%EC%A7%91%ED%99%94-K-means-Clustering)
 
 ---
 
 ## #21
 
-#### L1, L2 정규화에 대해 설명해주세요.
+#### L1, L2 regularization about Please explain .
 
-정규화(**일반화**)의 목적은 모델이 학습 데이터에 오버피팅되지 않고 처음 보는 테스트 데이터에도 좋은 성능을 내도록 만드는 것이다.
+Normalization (** Generalization ** ) The purpose is The model Learning In the data No overfitting Not first Seeing test Also in data good Performance Towards me fabricated It is .
 
-모델의 학습은 loss 함수를 최소화하는 방향으로 진행된다.
+Model's Learning is done using a loss function. Minimizing In the direction It's in progress .
 
-이 때, loss 함수에 L1, L2 정규화 항 (norm) 을 더함으로써 모델은 기존의 loss 도 줄이면서 정규화 항 (모델의 피쳐값과 관련) 도 줄이는 방향으로 학습된다.
+this When , L1, L2 regularization in loss function The term (norm ) By adding The model is The existing loss While reducing Normalization ( of the model ) Feature values and Related ) Reduce In the direction It is learned .
 
-모델의 피쳐값이 줄어듦에 따라 특정 피쳐가 너무 큰 값을 갖지 않게 되면서 오버피팅을 방지할 수 있게 된다.
+Model's The feature value is In the decrease according to specific The feature too big The value Have it Not to As it becomes Overfitting To prevent number Have It can be done .
 
-> **L1 정규화 (라쏘 회귀)**
+> **L1 regularization ( Lasso Regression )**
 
-L1 정규화는 특정 피쳐의 값이 매우 낮은 경우 (아웃라이어) 0에 수렴되는 특징이 있다. 특정 피쳐가 0이 되어 사라지는 것은 **feature selection** 과 동일하다고 볼 수 있다.
+L1 regularization is specific Feature's The value very low In case ( outlier ) 0 Converging Features There is . Specific The feature is 0 Become Disappearing It is **feature selection** and Same as cheek number there is .
 
 $$
 Cost = \sum^N_{i=0} (y_i - \sum^M_{j=0} x_{ij}W_j)^2 + \lambda \sum^M_{j=0} |W_j|
 $$
 
-> **L2 정규화 (릿지 회귀)**
+> **L2 regularization ( ridge Regression )**
 
-L2 정규화는 특정 웨이트의 값이 매우 낮아도 0에 수렴되지는 않고 가까워지는 특징이 있다. 이는 L1 정규화에 비해 강하지 않게 정규화를 실행하여 항상 선형 모델에 일반화 효과를 줄 수 있다.
+L2 regularization is specific Weight's The value very Even if it's low, it's 0 Not converging Not Getting closer Features There is . This is L1 regularization. Compare Not strong Not to Normalization Run it always Linear In the model generalization The effect line number there is .
 
 $$
 Cost = \sum^N_{i=0} (y_i - \sum^M_{j=0} x_{ij}W_j)^2 + \lambda \sum^M_{j=0} W_j^2
 $$
 
-loss 식에 람다 모델의 웨이트에 대한 L1 or L2 norm 을 더해줌으로써 모델의 일반화가 가능해진다.
+In the loss equation Lambda Model's In the weight For L1 or L2 norm By adding Model's Generalizer It becomes possible .
 
-loss 는 데이터 값과 추정 값의 차이로 모델은 loss 를 최소화하는 방향으로 학습하는데, L1 or L2 정규화를 사용하면 loss 가 웨이트의 크기만큼 커지기 때문에 데이터 값에 예측 값이 fit 해지지 않기 때문이다.
+loss is data Value and calculation Value of By difference The model has loss Minimizing In the direction When learning , use L1 or L2 regularization. If you use it, there is a loss Weight's As much as the size Get bigger because data In value prediction The value does not fit Don't do it Because .
 
 > **Norm**
 
-Norm은 벡터의 크기를 나타내는 것으로 L1 Norm은 벡터의 절댓값 크기를 나타내고, L2 Norm은 직선 거리 (제곱의 루트) 를 나타낸다.
+Norm is Vector's Size representative As such, L1 Norm is Vector's Absolute value Size , and L2 Norm is beeline Distance ( square of root ) It shows .
 
 ![Norm](./img/2-machine-learning/norm.png)
 
-위 그림에서 초록선은 L2 norm 을 의미하고, 나머지 선은 L1 norm 을 의미한다.
+stomach In the picture The green line is the L2 norm . Meaning , and the rest The line is L1 norm It means .
 
 - **L1 loss**
 
@@ -688,285 +682,285 @@ $$
 
 #### References
 
-- [딥러닝 용어 정리, L1 Regularization, L2 Regularization 의 이해, 용도와 차이 설명 - 빛나는 나무](https://light-tree.tistory.com/125)
-- [L1, L2 Norm, Loss, Regularization? - 생각 정리](https://junklee.tistory.com/29)
-- [릿지회귀, 라쏘회귀, 엘라스틱넷 - 대학원생이 쉽게 설명해보기](https://hwiyong.tistory.com/93)
+- [ Deep Learning Terminology Theorem , L1 Regularization, L2 Regularization Understanding , purpose and difference Description - Shining Tree ](https://light-tree.tistory.com/125)
+- [L1, L2 Norm, Loss, Regularization? - thought Summary ](https://junklee.tistory.com/29)
+- [ Ridge regression , Lasso regression , Elasticnet - Graduate student easy Explain ](https://hwiyong.tistory.com/93)
 
 ---
 
 ## #22
 
-#### Cross Validation은 무엇이고 어떻게 해야하나요?
+#### Cross Validation is What is it how Should I do it ?
 
-**cross validation(교차검증)이란** train(학습) 데이터로 학습한 모델이, 학습에 사용되지 않은 validation(검증) 데이터를 기준으로 얼마나 잘 동작하는지 확인하는 것이다. 여기서 주의할 점은 train 데이터셋과 validation 데이터셋에는 test 데이터셋이 포함되면 안된다는 것이다.
+**Cross validation( cross validation ) ** is **train( learning ) data Learned The model is used for learning Not used Unvalidated data As a standard how much well Does it work? To confirm It is . Here Be careful The point is that the train dataset and validation dataset have a test dataset. If included No way It is .
 
-교차검증을 통해 얻을 수 있는 **장단점**은 아래와 같다.
+Cross validation Through Get number There are ** pros and cons ** Below It's the same .
 
-- 적은 데이터에 대한 validation 신뢰성을 높일 수 있다.
-- 모든 데이터셋을 훈련에 활용할 수 있으므로 데이터 편중을 막을 수 있다. (k-fold 경우)
-- 검증 결과에 따라 더 일반화된 모델을 만들 수 있다.
-- 모델 학습에 오랜 시간이 소요된다.
+- Less In the data Validation reliability for Korea Raise number there is .
+- every The dataset In training To utilize number Because there is data Bias Stop it number There is . (k-fold case )
+- verification In the result according to more Generalized The model Make number there is .
+- Model In learning Long time Time It takes .
 
-교차검증 기법의 **종류**는 아래와 같다. (validation 데이터셋을 어떻게 지정하느냐에 따라 달라진다.)
+Cross validation ** Type ** of technique is Below Same as . (validation dataset how Whether to specify or not according to It changes .)
 
-- 홀드 아웃 교차검증(Holdout Cross Validation)
-- K-겹 교차검증(K-fold Cross Validation)
-- 계층별 k-겹 교차검증(Stratified K-Fold Cross Validation)
+- Hold out Holdout Cross Validation
+- K- fold Cross Validation (K-fold Cross Validation)
+- k -fold by layer Cross Validation (Stratified K-Fold Cross Validation)
 
-> **홀드 아웃 교차검증**
+> ** Hold out Cross validation **
 
-홀드아웃 교차검증방법은 일정한 비율의 validation 데이터셋 하나를 지정하여 검증 데이터셋으로 사용하는 것이다. 홀드아웃 교차검증을 사용하는 경우, 두가지 문제점이 존재한다.
+Holdout The cross-validation method is certain Validation dataset of ratios One By specifying verification With a dataset Using It is . Holdout Cross validation Using In case , there are two The problem is It exists .
 
-1. validation 데이터셋으로 지정된 부분의 데이터가 학습셋으로 사용되지 않는다는 문제
-2. validation 데이터셋에 편향되도록 모델을 조정하게 된다는 문제
+1. With validation dataset Specified Part of The data is With the learning set Not used I don't say no problem
+2. In the validation dataset To be biased The model To adjust It is possible problem
 
-이를 해결하기 위해 k-겹 교차검증이 등장했다.
+This Solve For k- fold Cross validation Appeared .
 
-> **k-겹 교차검증**
+> **k- fold Cross validation **
 
-k-겹 교차검증 방법은 train 데이터를 k개의 fold로 나누어, 그 중 하나의 fold를 validation 데이터셋으로 삼아 검증하는 방법을 k번 반복하여, 그 평균을 결과로서 사용하는 방법이다. 세부적인 동작방법은 다음과 같다.
+k- fold Cross validation The method is to divide the train data into k folds . Divide , that middle One fold as validation dataset Three Verifying method k times Again , that The average As a result Using It is a method . Detailed How it works Next It's the same .
 
-1. train 데이터셋을 k개의 fold로 나누고, 그 중 하나를 validation 데이터셋으로 지정한다.
-2. validation 데이터셋을 제외한 나머지 폴드들을 train 데이터셋으로 사용하여 모델을 학습한다.
-3. 학습한 모델을 1번에서 지정해둔 validation 데이터셋으로 검증하고, 그 검증 결과를 저장해둔다.
-4. 모델을 초기화한 후, 기존 validation 데이터셋이 아닌 다른 fold를 validation 데이터셋으로 지정하고, 2번 과정부터 다시 수행한다.
-5. 모든 fold들이 한번씩 validation 데이터셋으로 사용된 후에는, 저장해둔 검증결과의 평균을 내어, 그것을 최종 validation 결과로 사용한다.
+1. Divide the train dataset into k folds . Share , that middle One as a validation dataset Specify .
+2. validation dataset Except for remain Folds into the train dataset By using The model Learn .
+3. Learned Model 1 at With the specified validation dataset Verify and that verification The results Save it .
+4. Model Initialized After that , the existing validation dataset No Another fold as validation dataset Specify , 2 times From the process again Perform .
+5. All folds Once in a while with a validation dataset Used After that , save it Verification results The average Take it out As a final validation result Use .
 
-그러나 k-겹 교차검증 방법은 랜덤하게 validation 데이터셋을 지정하게 되므로, 편향된 데이터로 이뤄진 폴드가 생성될 수 있다는 단점이 있다. 이를 해결하기 위해서 계층별 k-겹 교차검증 방법이 등장했다.
+But k- fold Cross validation The method is Randomly generate validation dataset To specify Therefore , it is biased With data It was done Fold To be created number There is The downside is There is . This Solve For the sake of k- fold by layer Cross validation The method Appeared .
 
-> **계층별 k-겹 교차검증**
+> ** k - fold by layer Cross validation **
 
-계층별 k-겹 교차검증 방법은 k-겹 교차검증 방법에서 fold를 나눌때, 랜덤하게 fold를 지정하는 것이 아닌, 각 클래스별 비율을 고려하여 fold를 구성하는 방법이다.
+k- fold by layer Cross validation The method is k- fold Cross validation fold in method When dividing , fold randomly Specifying That is No , each By class The ratio Fold considering Composing It is a method .
 
-![계층별 k-겹 교차검증](./img/2-machine-learning/stratified-kfold.png)
+![ hierarchical k- fold Cross validation ](./img/2-machine-learning/stratified-kfold.png)
 
-> **💡 왜 test 데이터셋 만으로 검증하면 안될까?**  
-> 모든 train 데이터셋을 학습하고, test 데이터셋으로 검증한 결과를 확인한다고 하자. 개발자는 test 데이터셋 점수를 높이기 위해, test 데이터셋에 편향되도록 모델을 튜닝하게 될 것이다. 그러나 중요한 것은 test 데이터셋에 대한 정확도를 높이는 것 뿐만아니라, 모델의 일반적인 정확도를 높이는 것이다. 어떤 데이터가 들어와도 일정하게 높은 정확도를 보여주는 모델이 좋은 모델이라 할 수 있으므로, validation 데이터셋과 test 데이터셋을 분리하여 검증하는 과정을 통해, 모델을 일반화시켜야 한다.
+> ** 💡 Why test dataset Only If you verify Will it not work ?**
+> All train datasets Learning and test dataset Verified The results I confirm it Let's do it . The developer should create a test dataset. Score Raise For , in the test dataset To be biased The model Tune in Will be It is . But important It is in the test dataset About Korea Accuracy Height thing Not only that , the model general Accuracy Height It is . Some The data is Even if you come in Constantly high Accuracy Showing The model good Because you're a model will do number Therefore , we have a validation dataset and a test dataset. Separately Verifying The process Through the model Need to generalize Do .
 
 #### References
 
-- [딥러닝기초 Optimization - Sally](https://bsm8734.github.io/posts/bc-d012-1-dlbasic-optimization/)
-- [교차검증(CV, Cross Validation)이란? - unhochoi](https://wooono.tistory.com/105)
+- [ Deep Learning Basics Optimization - Sally](https://bsm8734.github.io/posts/bc-d012-1-dlbasic-optimization/)
+- [ What is Cross Validation (CV) ? - unhochoi](https://wooono.tistory.com/105)
 
 ---
 
 ## #23
 
-#### XGBoost을 아시나요? 왜 이 모델이 캐글에서 유명할까요?
+#### XGBoost Do you know why ? this The model On Kaggle Will it be famous ?
 
-**XGBoost(eXtreme Gradient Boosting)** 이란, 트리 기반의 앙상블 학습에서 가장 각광받고 있는 알고리즘 중 하나이다. Kaggle 경연대회에서 상위를 차지한 많은 과학자들이 XGBoost를 이용하면서 널리 알려졌다. GBM에 기반하고 있지만, GBM의 단점인 느린 수행시간 및 과적합 규제(Regularization) 부재 등의 문제를 해결해서 각광받고 있다.
+**XGBoost(eXtreme Gradient Boosting)** is a tree Based on ensemble In learning most In the spotlight present Algorithm middle One . In the Kaggle competition. The top Occupied many Scientists use XGBoost While using extensively It was reported that GBM Based on But , GBM 's The downside is slow Execution time and Overfitting Absence of Regulation Etc. The problem Solve it In the spotlight there is .
 
-XGBoost의 장점은 다음과 같다.
+XGBoost 's The advantages are Next It's the same .
 
-- 분류와 회귀영역에서 **뛰어난 예측 성능**을 발휘한다.
-- XGBoost는 병렬처리를 사용하여, GBM 대비 **빠른 수행시간**을 보인다.
-- **Regularization, Early Stopping** 기능을 통해 오버피팅을 방지할 수 있다.
-- Tree Pruning(가지치기) 제공한다. 미리 정해둔 max_depth까지만 split하고 pruning을 하고, 거꾸로 올라가면서 positive gain이 없는 노드를 삭제한다.
-- 자체적으로 결측치를 처리해준다.
-- 매 iteration마다 교차검증을 수행한다.
+- Classification and ** Outstanding in the regression area prediction Performance ** Demonstrate .
+- XGBoost is Parallel processing Using , ** faster than GBM ** execution time It is visible .
+- **Regularization, Early Stopping** features Through Overfitting To prevent number there is .
+- Tree Pruning is provided . In advance Split and prune only up to the specified max_depth . And , upside down As you go up, there is a positive gain no Node Delete it .
+- By itself Missing values I'll take care of it .
+- At every iteration Cross validation Perform .
 
-**GBM(Gradient Boosting Algorithm)** 이란 회귀분석 또는 분류 분석을 수행할 수 있는 **예측모형**이며 예측모형의 **앙상블 방법론** 중 **부스팅** 계열에 속하는 알고리즘이다. LightGBM, CatBoost, XGBoost는 모두 GBM을 기반으로 만들어졌다. (자세한 내용은 [Gradient Boosting Algorithm의 직관적인 이해 - DeepPlay](https://3months.tistory.com/368) 참고)
+What is GBM(Gradient Boosting Algorithm)** Regression analysis or classification Analysis To perform number There is a ** prediction model ** ** Ensemble of prediction models Methodology ** in the ** boosting ** series under Algorithms . LightGBM, CatBoost, XGBoost are All GBM Based on was created . ( See details The content is [Gradient Boosting Algorithm Intuitive Understanding - DeepPlay]( https://3months.tistory.com/368 )
 
-> **💡 boosting 이라는 테크닉 자체가 sequential 한데 어떻게 병렬처리를 할까?**  
-> 세가지 가능성이 제기된다. 나뉜 분기마다 각각 병렬처리하거나, 분기가 나뉘는 지점 계산을 병렬처리 하거나, 처음부터 feature별 정렬을 통해 병렬처리를 할 수 있다. (자세한 내용은 [XGBoost의 병렬처리가 어떻게 가능할까? - GoLab](http://machinelearningkorea.com/2019/07/25/xgboost-%EC%9D%98-%EB%B3%91%EB%A0%AC%EC%B2%98%EB%A6%AC%EA%B0%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C/) 참고)
+> ** 💡 boosting Technique It 's sequential in itself how Parallel processing Shall we do it ?**
+> Three Possibility is raised . divided Every quarter Each Parallel processing or branching Divided spot Calculate Parallel processing Or , from the beginning, by feature Sort it Through Parallel processing will do number There is . ( More details The contents are [XGBoost 's Parallel processing how Is it possible ? - GoLab](http://machinelearningkorea.com/2019/07/25/xgboost-%EC%9D%98-%EB%B3%91%EB%A0%AC%EC% B2%98%EB%A6%AC%EA%B0%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C/) reference )
 
 #### References
 
-- [머신러닝 알고리즘-XGBoost - RosyPark](https://rosypark.tistory.com/59)
-- [Gradient Boosting Algorithm의 직관적인 이해 - DeepPlay](https://3months.tistory.com/368)
+- [ Machine Learning Algorithm - XGBoost - RosyPark](https://rosypark.tistory.com/59)
+- [Gradient Boosting Algorithm Intuitive Understand - DeepPlay](https://3months.tistory.com/368)
 
 ---
 
 ## #24
 
-#### 앙상블 방법엔 어떤 것들이 있나요?
+#### Ensemble In the method which Things Do you have it ?
 
-![앙상블 기법](./img/2-machine-learning/ensemble.png)
+![ Ensemble Technique ](./img/2-machine-learning/ensemble.png)
 
-**앙상블(Ensemble)** 은 여러개의 모델을 조합해서 그 결과를 뽑아 내는 방법이다. "정확도가 높은 강한 모델을 하나 사용하는 것보다, 정확도가 낮은 약한 모델을 여러개 조합 하는 방식의 정확도가 높다"는 개념에서 비롯한 방법이다. `Bagging`, `Boosting`, `Stacking` 등의 방법이 있다.
+** Ensemble ** is Several The model Combined that The results Pull out smoking It is a method . " Accuracy high strong The model one Using More accurate than low weak The model Several mixture doing of the way Accuracy " high " is In concept Including It is a method . `Bagging`, `Boosting`, `Stacking`, etc. The method there is .
 
-**배깅(Bagging, Bootstrap Aggregation)** 이란 샘플을 여러번 뽑아(Bootstrap = 복원 랜덤 샘플링) 각 모델을 학습시켜 결과물을 집계(Aggregation)하는 방법이다. 카테고리 데이터는 투표 방식(Votinig)으로 결과를 집계하며, 연속형 데이터는 평균으로 집계한다. Bagging을 사용한 대표적인 기법에는 `Random Forest` 방법이 있다. 학습 데이터가 충분하지 않더라도 충분한 학습효과를 주어 높은 bias의 underfitting 문제나, 높은 variance로 인한 overfitting 문제를 해결하는데 도움을 준다.
+** Bagging (Bootstrap Aggregation) ** Sample Many times Pull (Bootstrap = Restore Random Sampling ) each The model Teach me The result Aggregating is a method . Category The data is vote By way of (Voting) The results Aggregate and continuous The data is On average Aggregate . Bagging Used Representative The technique involves the `Random Forest` method. There is . Learning The data is Not enough Even if not sufficient Learning effect subject Underfitting problem with high bias or high variance The overfitting problem caused by To solve Help Give .
 
-**부스팅(Boosting)** 이란 이전 모델의 오답에 가중치를 높게 부여하여 다음 모델을 학습하는 방법이다. 오답을 정답으로 맞추기 위해 오답에 더 집중하여 학습시키기 떄문에 일반적으로 배깅에 비해 정확도가 높다. 그러나 틀렸던 부분에 대해 반복적으로 학습하므로 오버피팅의 문제가 있으며, outlier에 취약하고, 속도가 느리다는 단점도 가지고 있다. `GBM(Gradient Boosting)` 방법이 대표적이고, `XGBoost, AdaBoost, GradientBoost` 등의 알고리즘이 존재한다.
+** Boosting ** before Model's In the wrong answer Weight High Granted next The model Learning It is a method . The answer is wrong . Correct answer Match for In the wrong answer more Focus on Teach Because In general In bagging Compare Accuracy High . But Wrong In part about Repeatedly Because I'm learning Overfitting's The problem is , and in the outlier Vulnerable and slow Slow Cons too have There is a `GBM(Gradient Boosting)` method . Representative ones include `XGBoost, AdaBoost, GradientBoost` , etc. The algorithm It exists .
 
-**스태킹(Stacking)** 이란 여러 개별 모델이 예측한 결과값을 다시 학습 데이터셋으로 사용해서 모델을 만드는 방법이다. 그러나 위의 그림과 같은 기본적인 스태킹 방법은 `같은 데이터셋을 통해 예측한 결과를 기반으로 다시 학습`하므로 `오버피팅` 문제점이 있다. 따라서 스태킹에 Cross Validation 방식을 도입하여 이 문제를 해결할 수 있다. 데이터를 쪼개고 이들 중 일부만을 가지고 학습한 모델을 여러개 만들어, 그 결과들을 `메타 학습 데이터셋(meta train dataset)` 으로 사용하여 다시 학습하는 것이다. 이 방법은 많은 개별 모델의 결과를 결합하여 예측 성능을 높일 수 있다는 장점이 있다.
+** Stacking ** several Individual The model As predicted The result value again Learning With a dataset By using The model fabricated It is a method . But Above Pictures and same fundamental Stacking The method is ` same The dataset Through As predicted The results Based on again Because we are learning , there is a problem of overfitting . There is . Therefore Cross Validation method for stacking Introducing this The problem To solve number There is data . Split it these middle Only some have Learned The model Several Make it The results are ` meta Learning As a dataset (meta train dataset) By using again Learning It is . This The method is many Individual Model's The results Combined prediction Performance Raise number There is The advantage is there is .
 
-> **💡 배깅 vs 부스팅**  
-> **배깅**은 랜덤 복원추출(부트스트랩)을 여러번 반복하여 모델을 **병렬적**으로 여러개 학습을 시킨 다음, 평균을 내는 방식이다. 반면, **부스팅**은 모든 데이터를 학습에 사용하되, 오답에 더 큰 가중치를 두어 다음 회차를 학습시키는 **순차적**인 방법이다.
+> ** 💡 Bagging vs Boosting **
+> ** Bagging ** is Random Restoration extraction ( bootstrap ) Many times Repeatedly ** Parallel ** modeling Several Learning Ordered Next , the average smoking is a method . On the other hand , ** boosting ** is every The data In learning Use it , but if the answer is wrong more big Weight Two or three next The turn ** Sequential ** teaching It is a method .
 
 #### References
 
-- [머신러닝-11.앙상블학습: 배깅과 부스팅 - BaekKyunShin](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-11-%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5-Ensemble-Learning-%EB%B0%B0%EA%B9%85Bagging%EA%B3%BC-%EB%B6%80%EC%8A%A4%ED%8C%85Boosting)
-- [1.앙상블 기법과 배깅, 부스팅, 스태킹 - 데이터 맛집](https://data-matzip.tistory.com/entry/%EC%95%99%EC%83%81%EB%B8%94-%EA%B8%B0%EB%B2%95-%EC%A0%95%EB%A6%AC-1-%EC%95%99%EC%83%81%EB%B8%94Ensemble-%EA%B8%B0%EB%B2%95%EA%B3%BC-%EB%B0%B0%EA%B9%85Bagging-%EB%B6%80%EC%8A%A4%ED%8C%85Boosting-%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%82%B9Stacking)
+- [ Machine Learning -11. Ensemble Learning : Bagging and Boosting - BaekKyunShin](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-11-%EC%95%99%EC%83%81%EB%B8 %94-%ED%95%99%EC%8A%B5-Ensemble-Learning-%EB%B0%B0%EA%B9%85Bagging%EA%B3%BC-%EB%B6%80%EC%8A%A4%ED%8C%85Boosting)
+- [1. Ensemble Technique and Bagging , boosting , stacking - data Delicious food ](https://data-matzip.tistory.com/entry/%EC%95%99%EC%83%81%EB%B8%94-%EA%B8%B0%EB%B2%95-%EC%A0%95%EB%A6%AC-1-%EC%95%99%EC%83%81%EB%B8%94Ensemble-%EA%B8%B0%EB%B2%95%EA%B3%BC-%EB%B0%B0%EA%B9%85Bagging-%EB%B6%80%EC%8A%A4%ED%8C%85Boosting-%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%82%B9Stacking)
 
 ---
 
 ## #25
 
-#### feature vector란 무엇일까요?
+#### What is a feature vector? What could it be ?
 
-**특징(feature)** 이란, 샘플(데이터)을 잘 설명하는 측정가능한 속성이다. 특징을 통해 특정 샘플을 수치화하여 나타낼 수 있다.  
-**특징벡터(feature vector)** 란 피쳐(feature)들의 집합이다. 굳이 벡터로 표시하는 이유는 수학적으로 다루기 편하기 때문이다.  
-데이터별로 어떤 특징을 가지고 있는지 찾아내고, 그것을 토대로 데이터를 벡터로 변환하는 작업을 **특징추출(feature extraction)** 이라고 한다.  
-**특징 공간(feature space)** 이란 관측값들이 있는 공간을 의미한다. 이 특징 공간은 여러 차원으로 구성될 수 있다. 어떤 데이터를 특징공간의 하나의 벡터로 표현하는 경우, 여러 특징 변수가 특징벡터에 영향을 줄 수 있다. 예를들어, 특징 변수가 하나인 데이터는 1차원 특징 공간에 나타나고, 특징 변수가 N개라면 N차원의 특징 공간에 나타낼 수 있다.
+** Feature ** refers to a sample ( data ) . well Explaining Measurable It is an attribute . It is a characteristic . Through specific Sample Quantify it To show number there is .
+** Feature vector ** The features It's a set . If necessary As a vector Displaying The reason is Mathematically Dealing with Comfortable Because .
+By data which Features have Is there Find it and Based on The data As a vector Converting The task is called ** feature extraction **. Do .
+** characteristic What is space (feature space)** ? The observations present Space It means . This characteristic The space is several In dimension To be composed number There is . Some The data Feature space One As a vector Expressing In case , several characteristic The variable In the feature vector Influence line number There are . For example , features The variable One Data is one- dimensional characteristic In space Appear and features If there are N variables , then it is N- dimensional. characteristic In space To show number there is .
 
-d-차원 데이터의 특징 벡터는 다음과 같이 표시된다.
+d- dimension Of the data characteristic The vector is Next together It is displayed .
 
 $$
 x = (x_1, x_2, ..., x_d)^T
 $$
 
-> **💡 분야에 따른 피처벡터의 의미**
+> ** 💡 In the field Followed Feature vector of meaning **
 >
-> - <strong>컴퓨터비전(이미지)</strong>에서의 특징은 edge, corner 등을 의미한다. 픽셀 값이 급격히 변화하는 곳, 밝기의 변화, 색상의 변화, 그래디언트의 방향 등의 매칭 정보등을 특징으로 삼는다. SIFT, SURF 등의 방법이 존재한다.
-> - **자연어처리(텍스트)** 에서의 특징은 단어, 형태소, 서브워드, 토큰 등으로 표현될 수 있으며, BOW(Bag-of-Words)는 문서에서 단어의 발생을 설명하는 텍스트의 벡터 표현이다. 만약 8개의 단어로 이루어진 문장을 BoW로 만들면, 8차원(dimension)의 vector로서 하나의 단어를 표현할 수 있다.
-> - **정형데이터**에서의 특징은 각 attribute(열)를 의미한다. 키, 나이, 국적 등이 특징으로 사용될 수 있다.
+> - <strong> In computer vision ( images )</strong> Features include edges, corners , etc. means . pixels The value Rapidly Changing place , brightness change , color Change , gradient direction Etc. Matching Information, etc. By feature It is used for SIFT, SURF , etc. The method It exists .
+> - ** In natural language processing ( text ) ** The features are word , morpheme , subword , token With the back To be expressed number , and BOW (Bag-of-Words) is In the document Of the word Occurrence Explaining Of the text vector It is an expression . If there are 8 In words Made Sentence to BoW When created , it is an 8- dimensional vector . One The word To express number there is .
+In ** structured data ** The features are Each attribute ( column ) It means . Height , age , nationality Back By feature To be used number there is .
 
 #### References
 
-- [피쳐(기계학습) - 위키백과](<https://ko.wikipedia.org/wiki/%ED%94%BC%EC%B3%90_(%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5)>)
-- [4)머신러닝이란? - TCPschool.com](http://www.tcpschool.com/deep2018/deep2018_machine_learning)
-- [머신러닝-다차원 특징공간과 차원의 저주 - 예비 개발자](http://blog.naver.com/PostView.nhn?blogId=qbxlvnf11&logNo=221323034856)
-- [OpenCV-특징검출, 디스크립터, 매칭 - JeongYongHwang](<https://wjddyd66.github.io/opencv/OpenCV(8)/>)
-- [자연어처리 Bag of Words](https://bsm8734.github.io/posts/bc-d016-2-nlp-bag-of-words/)
-- [자연어의 피처와 전처리 - GeumjaeLee](https://brunch.co.kr/@geumjaelee/4)
+- [ Feature ( Machine Learning ) - Wikipedia ](<https://ko.wikipedia.org/wiki/%ED%94%BC%EC%B3%90_(%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5)>)
+- [4) What is machine learning ? - TCPschool.com](http://www.tcpschool.com/deep2018/deep2018_machine_learning)
+- [ Machine Learning - Multidimensional Feature space and Dimensional Curse - Preliminary Developer ](http://blog.naver.com/PostView.nhn?blogId=qbxlvnf11&logNo=221323034856)
+- [OpenCV - Feature Detection , Descriptor , Matching - JeongYongHwang](<https://wjddyd66.github.io/opencv/OpenCV(8)/>)
+- [ Natural Language Processing Bag of Words](https://bsm8734.github.io/posts/bc-d016-2-nlp-bag-of-words/)
+- [ Natural language Features and Preprocessing - GeumjaeLee](https://brunch.co.kr/@geumjaelee/4)
 
 ---
 
 ## #26
 
-#### 좋은 모델의 정의는 무엇일까요?
+#### good Model's The definition is What could it be ?
 
-한 줄로 요약하자면, 좋은 모델은 **데이터의 패턴을 잘 학습한 모델**로서, **한번도 본적 없는 데이터에 대해 옳은 판단을 내리는 모델**이 좋은 모델이라고 할 수 있다.
+one In a line In summary , good The model is ** data The pattern well Learned As a model ** , ** never Domicile no In the data about correct Judgement dismountable Model ** Lee good As a model will do number there is .
 
-머신러닝, 딥러닝 등을 사용하여 모델을 생성하는 이유는 `기계가 사람 대신 어떠한 결정을 내리기 위함`이다. 따라서 모델은 `결정을 대신하는 기계, 결정기`라고 볼 수 있다.
-이 관점에서, 좋은 결정(옳은 결정)을 내리는 모델이 좋은 모델이다. 주어진 학습 데이터에 과적합된 모델의 경우, 주어진 데이터와 조금만 다른 데이터가 들어오면 제대로 분류하지 못하는 상황이 발생된다.
-그러므로 **모델의 일반화**가 이루어져, 새로운 데이터에 대해서도 적정한 수준의 성능을 보이는 모델이 좋은 모델이라고 할 수 있다.
+Machine learning , deep learning Back By using The model To create The reason is that ` the machine person instead Any Make a decision Get off It is for ` purpose . Therefore The model ` decides Instead of Machine , decision machine ` cheek number there is .
+this From a point of view , good decision ( right decision ) dismountable The model good It is a model . Given Learning In the data Overfit Model's case , given With data just a little different The data is When you come in Properly Not classified Can't do it The situation It happens .
+Therefore, ** of the model Generalization ** Made , new In the data About that too Appropriate Level of Performance Visible The model good As a model will do number there is .
 
-예를들어, 예측이 목적이라면, 실제 정답과 예측 값의 차이(loss, cost, error)를 최소화 하는 모델이 가장 좋은 모델이다. 또한 확률을 추정하는 경우에는 가능성(likelihood)을 최대화하는 모델이 좋은 모델이라고 할 수 있다.
+For example , the prediction If it's a purpose , then it's real Correct answer and prediction Value of Difference (loss, cost, error ) Minimize doing The model most good It's a model . Also The probability Estimating In this case Likelihood Maximizing The model good As a model will do number there is .
 
 #### References
 
-- [머신러닝의 모델평가와 모델선택, 알고리즘 선택 - 텐서플로우 블로그](https://tensorflow.blog/%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80%EC%99%80-%EB%AA%A8%EB%8D%B8-%EC%84%A0%ED%83%9D-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A0%ED%83%9D-1/)
-- [3.머신러닝의 주요 개념-모델 - Aiden](https://isme2n.github.io/devlog/2017/10/27/machine-learning-3/)
-- [모델 학습 방법과 일반화 성능 - 인생의 굴레에서1](https://dragsoseumon.tistory.com/34)
+- [ Machine learning Model evaluation and Model selection , algorithm Selection - Tensorflow Blog ](https://tensorflow.blog/%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80%EC%99%80-%EB%AA%A8%EB%8D%B8-%EC%84%A0%ED%83%9D-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A0%ED%83%9D-1/)
+- [3. Machine learning Main Concept - Model - Aiden](https://isme2n.github.io/devlog/2017/10/27/machine-learning-3/)
+- [ Model Learning Method and generalization Performance - Life 1](https://dragsoseumon.tistory.com/34 )
 
 ---
 
 ## #27
 
-#### 50개의 작은 의사결정 나무는 큰 의사결정 나무보다 괜찮을까요? 왜 그렇게 생각하나요?
+#### 50 of small Decision making The tree big Decision making Than a tree Is it okay ? Why like that Do you think ?
 
-50개의 작은 의사결정 나무는 앙상블에서 `Bagging` 기법을 사용한 모델로 볼 수 있다. 따라서 Bagging의 대표적인 방법인 `Random Forest` 방법이 왜 좋은지 설명하는 것으로, 왜 50개의 작은 의사결정 나무가 더 나은지 설명하고자 한다.
+50 of small Decision making The tree The `Bagging` technique in ensembles Used As a model cheek number There is . Therefore , Bagging Representative The method is the `Random Forest` method. why Is it good? Explaining As such , why 50 small Decision making The tree more Is it better? I want to explain Do it .
 
 ![](./img/2-machine-learning/random-forest-bagging.png)
 
-큰 트리는 작은 편향(bias)와 큰 분산(variance)를 갖기 때문에, 매우 깊이 성장한 트리는 훈련데이터에 대해 과적합(overfitting)하게 된다. Random Forest 방식으로 학습하면, 트리들의 편향은 그대로 유지하면서, **여러 데이터셋/여러 경우에 대해 학습하기 떄문에 분산을 감소**시킬 수 있다. 또한 한 개의 결정트리의 경우, train 데이터에 있는 노이즈에 대해 매우 민감하지만, 여러 트리들을 만들면서 평균을 내면, **노이즈에 대해 강인**해질 수 있다. 따라서 하나의 깊은/큰 의사결정 나무보다 50개의 작은 의사결정 나무가 더 좋은 모델을 완성시킨다고 할 수 있다.
+big The tree small Bias and big Variance Have Because , very depth adult The tree In training data about Overfitting It can be done using the Random Forest method. When you learn , the trees Bias is like that While maintaining , ** several Dataset / Multiple In case about Learn Because Dispersion ** to reduce number There is . Also one doggy Decision tree In this case , in the train data present In the noise about very Sensitive , but many The trees While making The average Inside , ** noise about Gangin ** sunset number There is . Therefore One deep / big Decision making 50 more than trees small Decision making The tree more good The model I'm going to finish it will do number there is .
 
 > **Bagging(Bootstrap Aggregating)**
 
-Bagging은 Bootstrap(반복, 복원추출)하고, 이를 Aggregation(집계)하는 방법이다. 원래 데이터셋에 대해서 여러개의 작은 데이터셋 N개를 샘플링해서 만든다음, 각각의 데이터를 작은 모델 N개로 학습을 시킨다. 그 다음 학습된 N개의 모델을 모두 하나로 합쳐서 최종적인 모델로 사용하는 방법론을 의미한다. 결국, 병렬적으로 데이터를 나누어 여러 개의 모델을 동시에 학습시키는 방법이다.
+Bagging is bootstrapping ( repeating , extracting with replacement ) and aggregating it . It is a method . Originally In the dataset About Several small N datasets By sampling After making each The data small Model N dog Learning Order it . That next N learned The model every In one Combined Final As a model Using The methodology It means . After all , in parallel The data into several doggy The model at the same time To teach It is a method .
 
 > **Random Forest**
 
-Random Forest는 여러 의사 결정 나무를 생성한 후에 다수결(hard voting) 또는 평균(soft voting)에 따라 출력을 예측하는 알고리즘이다. 즉 의사 결정 나무와 bagging을 혼합한 형태라고 볼 수 있다. Random Forest의 특징은 bootstrap을 이용하여 학습 데이터셋에서 다양한 샘플을 추출하여 일부만 한번의 학습에 사용한다는 것이다. 데이터 샘플링 및 변수 선택을 통해 의사 결정 나무의 다양성을 확보할 수 있다. 이를 통해 예측의 변동성이 줄어들고, 과적합을 방지할 수 있어 결측치에 대해 강건하다는 장점을 가진다. 그러나 데이터의 수가 많아지면 의사결정나무에 비해 속도가 크게 떨어지고, 결과에 대한 해석이 어렵다는 단점이 있다.
+Random Forest is several doctor decision The tree Created later Majority rule (hard voting) or On average (soft voting) according to Output Predicting It is an algorithm . That is doctor decision Wood and bagging Mixed It's called a form cheek number There is a Random Forest. The feature is bootstrap . By using Learning In the dataset various Sample Extract it Only some One time In learning To use It is . Data Sampling and Variable Make a choice Through doctor decision Of the tree Diversity To secure number There is . This Through Prediction of Volatility Reduced and overfitting To prevent number there is In missing values about It's strong Advantages have . but Of the data medical charge When it increases In the decision tree Compare The speed big Falling and the result About Korea Interpretation It's difficult The downside is there is .
 
 #### References
 
-- [Bagging, Boosting, Bootstrapping - 곽동현, New Sight](https://newsight.tistory.com/247)
-- [Bagging(Bootstrap aggregating, 배깅)알고리즘 - InCastle](https://m.blog.naver.com/PostView.nhn?blogId=ysd2876&logNo=221219689884&proxyReferer=https:%2F%2Fwww.google.com%2F)
-- [머신러닝: Random Forest 특징, 개념, 장점, 단점](https://jjeongil.tistory.com/908)
+- [Bagging, Boosting, Bootstrapping - Kwak Dong-hyeon , New Sight](https://newsight.tistory.com/247)
+- [Bagging(Bootstrap aggregating ) Algorithm - InCastle](https://m.blog.naver.com/PostView.nhn?blogId=ysd2876&logNo=221219689884&proxyReferer=https:%2F%2Fwww.google.com%2F)
+- [ Machine Learning : Random Forest Features , Concepts , Advantages , Disadvantages ](https://jjeongil.tistory.com/908)
 
 ---
 
 ## #28
 
-#### 스팸 필터에 Logistic Regression을 많이 사용하는 이유는 무엇일까요?
+#### Spam Logistic Regression in the filter many Using The reason is What could it be ?
 
-스팸 필터는 메일이 스팸 메일인지 아닌지에 대한 확률을 계산하여, 메일을 **분류(Classification)** 하는 문제이다. 로지스틱 회귀는 회귀를 바탕으로 데이터가 어떤 범주에 속할 확률을 0과 1 사이의 값으로 예측하고 그 확률에 따라 가능성이 더 높은 범주에 속하는 것으로 분류(Classification)해주는 지도 학습 알고리즘이다. 특히 **입력값이 아무리 크거나 작아도 0에서 1 사이의 값으로 맵핑**시킨다는 점에서 분류문제에 적합하다. 따라서 로지스틱 회귀가 스팸필터에 많이 사용된다.
+Spam The filter is The mail Spam Is it mail? Whether or not About Korea The probability Calculate and ** classify ** the mail . It's a problem . Logistics Regression is Regression Based on The data is which In category Belong to The probability is between 0 and 1. By value Predict and that In probability according to Possibility more high In category under As a result It does classification map Learning It is an algorithm . In particular, ** the input value is ever so Big or Even if it's small, it's between 0 and 1 By value Mapping ** In that respect In classification problems It is suitable . Therefore Logistic The regression In the spam filter many is used .
 
 ![](./img/2-machine-learning/linear-and-logistic-regression.png)
 
-> **분류문제에서 로지스틱 회귀가 적절한 이유**
+> ** In classification problems Logistic The regression appropriate reason **
 
-로지스틱 회귀는 **시그모이드 함수(sigmoid function)** 를 통해 선형함수를 0과 1 사이의 함수로 바꾼 것이며, S자 형태를 보인다.
-시그모이드 함수의 정의는 아래와 같다.
+Logistic Regression is ** sigmoid Function (sigmoid function) ** Through A linear function between 0 and 1 As a function Changed and S -shaped The shape It is visible .
+Sigmoid Function of The definition is Below It's the same .
 
 $$
 S(x) = \frac{1}{1 + e^{-x}} = \frac{e^x}{e^x+1}
 $$
 
-로지스틱 회귀의 가설함수는 다음과 같다.
+Logistic Of regression The hypothesis function is Next It's the same .
 
 $$
 H(X) = \frac{1}{1 + e^{-(Wx+b)}} = sigmoid(Wx+b) = \sigma (Wx+b)
 $$
 
-x값이 아무리 +, -로 작아지거나 커져도 항상 0과 1 사이의 값을 반환한다. 확률은 **0에서 1사이의 범위 내에 들어와야하므로** 이러한 형태가 적합하다.
+x value No matter how much + or - Getting smaller Even if it grows Always between 0 and 1 The value Returns . The probability is between **0 and 1. range Inside ** These are necessary to come in The shape It is suitable .
 
-이렇게 H(x)의 값이 0과 1사이로 나오면, 위의 Hypothesis 함수로 regression을 한 결과값이 threshold(ex.0.5) 이상인 경우엔 1로 분류하고, threshold 보다 작으면 0으로 분류하면 되기 떄문이다.
+In this way, H(x ) The value is between 0 and 1 When it comes out , regression is done with the hypothesis function above. one The result value is greater than or equal to the threshold (ex. 0.5) In this case 1 Classify and exceed the threshold If it's small, it 's 0 If you categorize it Become That's why .
 
-> **분류문제에서 선형회귀가 적합하지 않은 이유**
+> ** In classification problems Linear regression Not suitable Not reason **
 
-`그림1`과 같이 주어진 데이터를 표현하는 그래프를 그려, 적절한 지점을 기준으로 두 그룹으로 분류할 수 있다.
+` Figure 1` and together given The data Expressing The graph Draw , appropriate Branch As a standard two In a group To classify number there is .
 
-이때 `그림2`의 `new` 데이터가 새로 들어왔다고 해보자. 그래프는 새로운 데이터 `new`의 영향을 받아, 아래로 기울어진 형태로 업데이트되어, `그림3`의 붉은색 그래프 형태가 된다.
-이렇게 되면, 원래는 1로 잘 분류되던 것들의 예측값이 기존 threshold 아래로 내려가게되어, 0으로 분류되어버리는 문제가 발생한다.
+At this time, the `new` data in ` Figure 2` New I came in Let's try it . The graph is new Data ` new` Influence Take it , down Tilted In the form of Updated , ` Figure 3` Red graph The shape It can be done .
+like this If it is , it is originally 1 well Classified Of things The predicted value is Below the existing threshold It goes down to 0 Being classified The problem is It happens .
 
 ![](./img/2-machine-learning/classification-and-linear-regression.png)
 
-선형회귀 함수는 어떤 입력값이 들어오느냐에 따라 **0과 1 사이의 범위를 벗어나기도** 한다.
+Linear regression The function is which The input value is Whether you come in or not So between **0 and 1 Range It also ** escapes .
 
-또한, `H(x) = 100x`라는 가설함수(Hypothesis function)이 있다고 하자. x가 0.01 이상인 경우는 모두 1로 x가 0 이하인 경우는 모두 0으로 분류하게 된다. 이처럼 **x값에 너무 민감하게 반응**하는 모델이 만들어질 수 있다. 연산상으로는 매우 작은 값만 바뀌어도 아예 분류자체가 바뀌어버린다.
+Also , `H(x) = 100x` Hypothesis function There is Let's say x is greater than or equal to 0.01. In the case All 1 's are less than or equal to 0 In the case All to 0 To classify It becomes like this **x value too Sensitively Responding ** The model To be made number There is . Operationally very small Just the value Even if it changes At all The classification itself It changes .
 
-더 나아가, 선형모델은 확률이 아닌, 점들의 보간(interpolate)만으로 이루어지므로 확률로 해석할 수 없다. 예측값이 확률이 아니기 때문에 한 클래스와 다른 **클래스를 구분할 수 있는 의미 있는 임계값이 없다.** 또한 다중 클래스를 가지는 분류문제로 확장할 수 없다는 문제점도 있다. 이러한 문제점들 때문에, 분류문제에서 선형 회귀 모델은 적합하지 못하다.
+more Furthermore , the linear model The probability is No , the dots By interpolation only Because it is done By probability To interpret number No. The predicted value is The probability is No because one Class and Other ** classes To distinguish number present meaning present The threshold is None .** Also Multi The class Eggplant As a classification problem To expand number There is none Problems too There are . These Problems Because , in classification problems Linear return The model is Not suitable Can't do it .
 
 #### References
 
 - [4.2 Logistic Regression - TooTouch](https://tootouch.github.io/IML/logistic_regression/)
-- [5)로지스틱회귀 - 딥러닝을 이용한 자연어 처리 입문](https://wikidocs.net/22881)
-- [모두를 위한 딥러닝(sung kim)lec5-Logistic Classification - cdjs의 코딩 공부방](https://cding.tistory.com/55)
+- [5) Logistic Regression - Deep Learning Used Natural language treatment Introduction ](https://wikidocs.net/22881)
+- [ Everyone For Deep Learning (sung kim)lec5-Logistic Classification - cdjs Coding Study Room ](https://cding.tistory.com/55)
 
 ---
 
 ## #29
 
-#### OLS(ordinary least square) Regression의 공식은 무엇인가요?
+#### OLS(ordinary least square) Regression The formula is What is it ?
 
-**최소자승법(OLS, Ordinary Least Squares)** 이란, 산점도를 통해 데이터의 분포 그래프를 그릴때, 이 데이터들의 경향을 알기 위한 최적의 추세선을 그리기 위한 방법 중 하나이다. OLS는 근사적으로 구하려는 해와 실제 해의 오차의 제곱의 합이 최소가 되는 해를 구하는 방법이다.
+** Ordinary Least Squares (OLS)** is a scatter plot Through Of the data distribution The graph When drawing , this Of the data The trend Know For The best Trend line Drawing For method middle It is one . OLS is Approximately Want to save The sun Actual Of the sun Error of Square of The sum Minimum price felled The year Seeking It is a method .
 
-OLS Regression은 회귀를 통해서 방정식의 상수 값들을 추정하는 데에 사용된다. n개의 입력값과 그에 대응하는 출력값 $(x_i, y_i)(1\leq i\leq n)$이 있고, 이 계의 방정식이 변수 $x$와 $\beta=(\beta_0, \beta_1, \cdots , \beta_k )$인 상수 $\beta$에 대한 식 $f(x, \beta)$으로 주어질 때, $\sum_i(y_i - f(x_i, \beta))^{2}$ 의 값을 최소로 만드는 $\beta$를 구하는 것이 문제의 목표이다.
+OLS Regression is Regression Through of the equation constant The values Estimating On the day is used . n number of Input values and To him Corresponding The output value $(x_i, y_i)(1\leq i\leq n) $ There is , and this Of the account The equation is Variables $x$ and $\beta=(\beta_0, \beta_1, \cdots , \beta_k ) $ For constant $\beta$ About Korea With the formula $f(x, \beta)$ be given When , $\sum_i(y_i - f(x_i, \beta))^{2} $ The value At least Making $\beta $ Seeking That is The problem is the goal .
 
-추정하고자 하는 파라미터 β에 대한 표현식을 다음과 같이 구할 수 있다.
+I want to estimate doing With parameter β About Korea Expression Next together Save number there is .
 
 $$
-{\hat {\beta}}=(\mathbf {X}^{\rm {T}}\mathbf {X})^{-1}\mathbf {X}^{\rm {T}}\mathbf {y} = {\big (} ~ {\textstyle \sum }\mathbf x_i \mathbf x_i^{\rm {T}}\,{\big )}^{-1}{\big (} ~ {\textstyle \sum }\mathbf x_i y_i ~ {\big)}
+{\hat {\beta}}=(\mathbf { )}^{-1}{\big (} ~ {\textstyle \sum }\mathbf x_i y_i ~ {\big)}
 $$
 
 ![](./img/2-machine-learning/ols.png)
 
-예를들어, 7개 데이터의 경향을 나타내는 추세선을 `그림2`와 같이 그렸다고 하자.
-이때 실제 데이터의 y값(실제값)과 추세선의 y값(예측값)의 차를 **잔차(Residual)** 라고 한다. (아래 그래프에서 잔차는 점선으로 표시)
-최소자승법은 이 **잔차의 제곱의 합(RSS, Residual Sum of Squares)을 최소로 하는 (가중치 벡터를 구하는) 방법**이다.
-잔차 제곱의 합은 `그림3`의 `TOTAL AREA`에 해당하는 넓이와 같다.
+For example , 7 Of the data The trend representative The trend line is shown in ` Figure 2` together I drew it let's do it .
+At this time Actual The y value ( actual value ) of the data and The y value ( predicted value ) of the trend line The car is called ** residual ** do . ( below On the graph The remainder is In a dotted line mark )
+The least squares method This ** residual Square of The sum (RSS, Residual Sum of Squares ) At least doing ( weighting Vector ** is the method of obtaining .
+Residual Square of The sum is in `TOTAL AREA` of ` Figure 3` Applicable Area and It's the same .
 
-잔차 제곱의 합을 구하는 식은 아래와 같다.
+Residual Square of Sum Seeking Cold Below It's the same .
 
 ![](./img/2-machine-learning/rss.png)
 
-파란색 추세선보다 보라색 추세선의 잔차제곱의 합이 더 작다. 따라서 파란색 추세선보다 보라색 추세선이 위 7개의 데이터를 더 잘 표현해주는 추세선임을 알 수 있다.
-이렇게 잔차 제곱의 합을 최소로 하는 방법이 최소자승법이며, 최소자승법을 활용하여 데이터를 가장 잘 표현하는 선형 회귀선을 그릴 수 있다.
+Blue Than the trend line purple Trend line The square of the residual The sum more It's small . So Blue Than the trend line purple The trend line The above 7 The data more well Expressing It's a trend line egg number there is .
+like this Residual Square of Sum At least doing The method It is the least squares method , and the least squares method By utilizing The data most well Expressing Linear The regression line grill number there is .
 
-> **💡 OLS vs. MSE**
+> ** 💡 OLS vs. MSE**
 >
-> - OLS(Ordinary Least Square): 선형 회귀 모델을 만들기 위한 선횡 최소 제곱법, 모델을 만들때 사용한다.
-> - MSE(Mean Square Error): 모델 성능 평가 지표, 모델을 평가할 때 사용한다.
+> - OLS(Ordinary Least Square): Linear return The model making For Line and horizontal Minimum Square law , model When making Use .
+> - MSE(Mean Square Error): Model Performance evaluation Indicators , models To evaluate at the time Use .
 
 #### References
 
-- [DATA-17.최소자승법(OLS)을 활용한 단순 선형 회귀 - 귀퉁이 서재](https://bkshin.tistory.com/entry/DATA-17-Regression)
-- [선형회귀 - 위키백과](https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95_%ED%9A%8C%EA%B7%80#Ordinary_least_squares)
-- [최소제곱법 - 위키백과](https://ko.wikipedia.org/wiki/%EC%B5%9C%EC%86%8C%EC%A0%9C%EA%B3%B1%EB%B2%95)
-- [데이터분석 9.회귀모형 - 집밖은 위험해 OTL](https://throwexception.tistory.com/943)
+- [DATA-17. Least Squares Method (OLS ) Utilized Simple Linear Regression - Corner Study ](https://bkshin.tistory.com/entry/DATA-17-Regression)
+- [ Linear regression - Wikipedia ](https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95_%ED%9A%8C%EA%B7%80#Ordinary_least_squares)
+- [ Least squares method - Wikipedia ](https://ko.wikipedia.org/wiki/%EC%B5%9C%EC%86%8C%EC%A0%9C%EA%B3%B1%EB%B2%95)
+- [ Data Analysis 9. Regression Model - Outside the Home It's dangerous OTL](https://throwexception.tistory.com/943)
 
 ---
