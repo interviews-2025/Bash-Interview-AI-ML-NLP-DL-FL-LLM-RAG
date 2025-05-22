@@ -24,7 +24,7 @@ Supervised Learning uses labeled training data (input-output pairs) to learn a m
 ### 🏷️ SUPERVISED LEARNING > CLASSIFICATION
 
 ### **Q3: What is Classification and what are its key algorithms?**
-Classification predicts discrete categories or classes. Key algorithms include:
+Classification predicts discrete categories or class labels. Key algorithms include:
 
 - **Logistic Regression:**  
   Purpose: Binary and multiclass classification  
