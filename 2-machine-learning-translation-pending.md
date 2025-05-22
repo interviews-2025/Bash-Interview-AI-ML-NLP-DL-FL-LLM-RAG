@@ -50,7 +50,7 @@ Accuracy is ** of the model The prediction is how much ** is it accurate ? It me
 
 > ** Error Matrix (confusion matrix)**
 
-![ error Matrix ](./img/2-machine-learning/confusion-matrix.png)
+![Confusion Matrix](./images/2-ml/confusion-matrix.png)
 
 error The matrix is ** model Prediction and how much I'm confused Whether it exists Showing It is an indicator ** . Mainly Binary In the category many In use Binary In classification About Korea error The matrix is Above Like a picture together To show number There is . True Positive is In a positive way Prediction I did it actually Positive In this case , False Positive is In a positive way I predicted it actually Negative In case of , False Negative is In a negative way I predicted it actually Positive In this case , True Negative is In a negative way I predicted it actually Negative In the case Says . Above The value Based on The model which Error Whether it caused it To look into number there is .
 
